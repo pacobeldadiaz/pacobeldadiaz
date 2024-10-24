@@ -1,0 +1,46 @@
+
+#idAceptarCookies {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+#idCancelarCookies {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+.ocultar {
+    display: none;
+   }
+
+.css-class-cookies-ventanaTotal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 0, 0, 0.9);
+}
+
+.css-class-cookies-ventana-contenido {
+    background-color: #d6d6d6;
+    margin: 15% auto;
+    width: 80%;
+    padding: 50px;
+    border: 5px solid #3b5d00;
+}
+
+
+
+
+
+

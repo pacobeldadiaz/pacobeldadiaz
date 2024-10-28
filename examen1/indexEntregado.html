@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/password.css">
+    <title>Entrada a la Web</title>
+</head>
+<body>
+    <div class="container">
+        <div id="paso1" class="paso activo">
+            <h1>Introduce tu nombre de usuario</h1>
+            <input type="text" id="username" placeholder="Nombre de Usuario" required>
+            <button onclick="nextStep()">Siguiente</button>
+        </div>
+        <div id="paso2" class="paso">
+            <h1>Introduce tu contraseña</h1>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button onclick="login()">Comprobar e Iniciar Sesión</button>
+        </div>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="js/password.js"></script>
+</body>
+</html>

@@ -37,7 +37,8 @@ function mostrarCaramelos() {
         caramelosDiv.appendChild(div);
 })};
 
-//PRUEBAS CON ARRAYS
+
+//PRUEBAS CON ARRAYS -------------------------------------------------------------------------------------
 const numeros =["1","2","3"]
 console.log(parseInt(numeros)); //solo saca el primero
 console.log(numeros.toString());//llama al metodo
@@ -74,8 +75,8 @@ console.log("False (numeros):");
 console.log(cosasFalse);
 
 
+// ARCHIVOS JSON-----------------------------------------------------------------------------------
 
-// ARCHIVOS JSON
 //import datos from "./data/usuario.json" with {type: 'json'}; //en la misma carpeta
 import datos from "../data/usuario.json" with {type: 'json'}; //entrar en otra carpeta
 console.log("EJERCICIO .JSON");

@@ -37,7 +37,7 @@ function mostrarCaramelos() {
         caramelosDiv.appendChild(div);
 })};
 
-
+//PRUEBAS CON ARRAYS
 const numeros =["1","2","3"]
 console.log(parseInt(numeros)); //solo saca el primero
 console.log(numeros.toString());//llama al metodo

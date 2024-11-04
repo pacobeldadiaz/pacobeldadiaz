@@ -1,0 +1,6 @@
+* { box-sizing: border-box; }
+
+/* TAGS */
+body{
+    border: solid 2px rgb(73, 73, 73);
+}

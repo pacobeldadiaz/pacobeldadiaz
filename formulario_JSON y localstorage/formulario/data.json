@@ -1,0 +1,16 @@
+[
+    {
+      "nombre": "Juan Pérez",
+      "email": "juan@example.com",
+      "optAli": true,
+      "optVal": false,
+      "optCas": true
+    },
+    {
+      "nombre": "Ana García",
+      "email": "ana@example.com",
+      "optAli": false,
+      "optVal": true,
+      "optCas": false
+    }
+  ]

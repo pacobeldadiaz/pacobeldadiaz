@@ -1,0 +1,99 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: grid; /* Definir el grid */
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+    grid-template-rows: auto 1fr; /* Dos filas: la primera se ajusta al contenido y la segunda tiene altura fija */
+    gap: 5%; /* Espacio entre columnas */
+    justify-items: center; /* Alineación horizontal */
+    align-items: start; /* Alineación vertical */
+    height: 100vh; /* La altura total de la ventana del navegador */
+}
+
+.contenidoEnviar, .contenidoEditar {
+    width: 100%; 
+    height: 100%;
+    border: solid 1px red; /* Para visualizar el área de los formularios */
+    text-align: center;
+    /*padding: 10px; /* Un poco de espacio dentro de los formularios */
+}
+
+/* Ocultar botones cuando no son necesarios */
+.ocultar { 
+    display:none;
+   }
+
+/* Estilos para los botones Centrar los botones dentro de la clase .botones */
+.botones { 
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* Aplicar separación (margen) a los botones */
+.botones button {
+    margin: 10px;  /* Añade separación entre los botones */
+    padding: 10px 20px; /* Relleno dentro de los botones */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Aparece como un puntero al pasar el ratón */
+}
+
+h1 {
+    font-family: Consola, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: solid 1px rgb(0, 0, 0); /* Para visualizar el área de los formularios */
+    display: inline-block; /* Hace que el h1 se ajuste al tamaño del contenido */
+    width: 75%;
+    background-color: yellow;
+    text-align: center; /* Alineación del texto al centro */
+    /*margin-left: auto;  /* Margen automático para centrar horizontalmente */
+    /*margin-right: auto; /* Margen automático para centrar horizontalmente */
+    padding: 2px; /* Un poco de relleno dentro del h1 para que no quede pegado al borde */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra alrededor del borde */
+}
+
+
+
+
+/* Fila inferior */
+#inferior {
+    grid-column: 1 / span 2; /* Ocupa ambas columnas */
+    align-self: top; /* Centrado verticalmente */
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+    width: 50%; 
+    height: 90%;
+    font-family: Consola, Verdana, Arial, Helvetica, sans-serif;
+    border: solid 1px red; /* Para visualizar el área de los formularios */
+    text-align: center;
+    padding: 10px; /* Un poco de espacio dentro de los formularios */
+}
+
+ul{
+    font-family: Consola, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:darkred;
+    text-align:left; /* Alineación del texto  */
+    list-style-type: none; /* Quitar las viñetas de la lista, el punto*/
+    margin-top: 10px;
+}
+ul li {
+    margin-bottom: 15px; /* Espacio de 5px entre los elementos de la lista */
+}
+
+/* Estilo para el li y el botón dentro del li */
+#usuarios-guardados-listado li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Espacio entre elementos */
+    justify-content: space-between; /* Asegura que el botón se mantenga a la derecha */
+}
+
+/* Estilo del botón */
+#usuarios-guardados-listado button {
+    margin-left: 10px;
+    cursor: pointer;
+}

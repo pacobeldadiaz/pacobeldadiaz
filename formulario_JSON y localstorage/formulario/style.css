@@ -1,0 +1,47 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    display:grid;                   /*grid imprescindible*/
+    border: solid 1px white;      /*grid */
+    grid-template-columns: 1fr 1fr; /*grid imprescindible*/
+    gap: 5%;                       /* hueco entre columnas */
+    justify-items: center;
+    /* height: 100vh; */
+    align-items: center;
+}
+
+.contenidoEnviar{
+    width: 100%;
+    height: 100%;
+    border: solid 1px red;
+    align-content:top, center;
+    text-align:center;
+}
+
+.contenidoEditar{
+    width: 100%;
+    height: 100%;
+    border: solid 1px red;
+    align-content:top, center;
+    text-align:center;
+}
+.ocultar {
+    display:none;
+   }
+
+/* Centrar los botones dentro de la clase .botones */
+.botones {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* Aplicar margen a los botones para separarlos */
+.botones button {
+    margin: 10px;  /* Añade separación entre los botones */
+    padding: 10px 20px; /* Relleno dentro de los botones */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Aparece como un puntero al pasar el ratón */
+}
+

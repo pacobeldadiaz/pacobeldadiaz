@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Incluir fuentes google 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira&Stencil&One=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Codystar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">-->
+</head>
+<title>🚇AYUDA-TRAM 🚊</title>
+<body>
+    <div class="contenedor">
+        <!-- columna1 -->
+        <div class="divMenu">
+            <ul id="listado-tren">
+                <li><a href="#" serie-tren="menu"><img src="img/icono-tren.jpg" width="50" height="50"></a></li>
+                <li><a href="#" serie-tren="4100">SERIE 4100</a></li>
+                <li><a href="#" serie-tren="4200">SERIE 4200</a></li>
+            </ul>
+            <ul id="listado-menu">
+                <!-- LISTADO DE OPCIONES DEL MENU -->
+            </ul>
+        </div><!-- fin divMenu -->
+        <!-- columna2 -->
+        <div class="divPrincipal">
+            <div class="divTitulo">
+                <h1 id="titulo">MANUAL DE AYUDA RED TRAM DE ALICANTE</h1>
+            </div><!-- fin divTitulo -->
+
+            <div class="divCuerpo">
+                <div id="cuerpo">
+                        <img id="imagenTren" src="./img/i4100_general_lateral.jpg" width="65%" alt="VISTA SUPERIOR SERIE 4200">
+                        <div class="containerGeneralidades">
+                            <div class="columnasTexto">
+                                <p><h2>MOTRIZ:</h2></p>
+                                <p><h4>Masa de la unidad:</h4></p>
+                                <p>- TARA (A-B-C) 61.900 Kg</p>
+                                <p> - Carga Normal: 81.600 Kg</p>
+                                <p><h4> Velocidades:</h4></p>
+                                <p>- Tren: 100Km/h</p>
+                                <p>- Tranvía: 70 Km/h</p>
+                                <p>- Acople/Desacople y Lavado: 3 Km/h</p>
+                                <p>- Marcha Atras: 50 Km/h</p>
+                                <p>- Sobreesfuerzo: 50 Km/h</p>
+                                <p>* Velocidades CON FALLO EN:</p>
+                                <p>- 1 equipo de tracción: 70 Km/h</p>
+                                <p>- 2 equipos de tracción: 30 Km/h</p>
+                                <p><h4> Nº de motores:</h4></p>
+                                <p>- 6 motores asincronos (2 x bogie motor)</p>
+                                <p>- 3 Bogies Motores ONIX de ALSTOM (tec.IGBT)</p>
+                                <p>- Bogie con ruedas elásticas</p>
+                                <p>- y suspensión secundaria neumática</p>
+                                <p><h4>Convertidores estáticos: 2 (SEPSA)</h4></p>
+                                <p>- Salida Media Tensión: 60KVA 400VCA 50hz</p>
+                                <p>- Salida Baja Tensión:110VDC+CargadorBaterias</p>
+                                <p><h4>Plazas Viajeros: Plazas Sentadas: 98</h4></p>
+                                <p>- Plazas de Pie (6pasajeros x M2): 213</p>
+                                <p>- TOTAL PLAZAS: 311</p>
+                                <p></p>
+                                <p><h2>SISTEMA MOTRIZ:</h2></p>
+                                <p>El circuito de tracción consta de:</p>
+                                <p><h4>3 CONVERTIDORES DE TRACCION</h4></p>
+                                <p><h4>6 MOTORES TRACCION ASINCRONOS</h4></p>
+                                <p></p>
+                                <p><h4>Hay 3 BOGIES MOTORES</h4></p>
+                                <p>(cada uno con 2 MOTORES DE TRACCION)</p> 
+                                <p>-Cada eje del bogie motor es accionado por un motor trifásico asincrono.</p>
+                                <p>-Cada bogie motor es alimentado por un convertidor de tracción propio situado en el cofre del bloque motor (CBM)</p>
+                                <p>-Cada CBM se alimenta de tensión de catenaria (750 Vdc) a través del pantógrafo y del disyuntor principal (HSCB)</p>
+                                <p>-Cada motor de tracción incorpora su sensor de velocidad</p>
+                                <p></p>
+                                <p>El convertidor de tracción transforma los 750Vdc en tensión trifásica y frecuencia variable, para la alimentación de los motores, que la transforman en en energia mecánica para la tracción. Cuando los motores funcionan como generadores, el convertidor devuelve la energia eléctrica generada a la red (FRENO DE RECUPERACION), o la transforma en energia calorífica (FRENO REOSTÁTICO) a través de una resistencia externa.</p>
+                                <p></p>
+                                <p><h4>ESFUERZO MAXIMO = 36 KN x BOGIE MOTOR</h4></p>
+                                <p></p>
+                                <p><h4>La electrónica de los CBM</h4> se comunica con:</p>
+                                <p>-la electrónica de control del tren (MPTCS)</p>
+                                <p>-la electrónica de control del freno (BCE)</p>
+                                <p>-la electrónica de control de los auxiliares (ACE), a través del bus FIP redundante.</p>
+                                <p></p>
+                                <p><h4>COMUNICACION ENTRE ELECTRÓNICAS:</h4></p>
+                                <p><h4>CBM<>MPTCS<>BCE<>ACE (red FIP)</h4></p>
+                                <p></p>
+                            </div>
+                    
+                            <div class="columnasTexto">
+                                
+                                <p><h2>BOGIE:</h2></p>
+                                <p><EL TREN TRAM está compuesto de:</p>
+                                <p><h2>3 BOGIES MOTORES y 1 BOGIE REMOLQUE</h2></p>
+                                <p></p>
+                                <p>La caja de los coches descansa sobre el bastidor de los bogies a través de la suspensión secundaria (neumática) del enlace caja-bogie, y el bastidor del bogie descansa sobre las manguetas exteriores de la suspensión primaria y de las cajas de grasa.</p>
+                                <p></p>
+                                <p>Las <h4>funciones de los bogies</h4> son:</p>
+                                <p>- Soportar el peso de la caja</p>
+                                <p>- Guiado del vehiculo</p>
+                                <p>- Enlace caja-bogie</p>
+                                <p>- Filtrado a través de la suspensión / amortiguadores</p>
+                                <p>- Frenado de disco mediante hidráulico</p>
+                                <p>- Frenado magnético con patines</p>
+                                <p>- Arenado (adherencia)</p>
+                                <p>- Antibloqueo (detección patinaje)</p>
+                                <p>- Puesta a tierra y retorno de corriente</p>
+                                <p>- Transmisión del par motor(en bg.motor)</p>
+                                <p>- Medida de la velocidad FAP</p>
+                                <p>- Disminución del desgaste de pestaña de las ruedas (en bg. motores extremos)</p>
+                            </div>
+                        </div> <!--fin containerTexto -->
+                </div><!-- fin idcuerpo -->
+            </div><!-- fin divCuerpo -->
+    </div>
+
+    <script type="module" src="./js/Menu.js"></script>
+</body>
+</html>

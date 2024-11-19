@@ -1,0 +1,92 @@
+[
+    {
+        "nombre": "GENERALIDADES",
+        "tren": "4100",
+        "link": "4100generalidades.html"
+    },
+    {
+        "nombre": "VISTA SUPERIOR",
+        "tren": "4100",
+        "link": "4100superior.html"
+    },
+    {
+        "nombre": "VISTA INTERNA",
+        "tren": "4100",
+        "link": "4100interna.html"
+    },
+    {
+        "nombre": "VISTA INFERIOR",
+        "tren": "4100",
+        "link": "4100inferior.html"
+    },
+    {
+        "nombre": "SIST.ELECTRICO",
+        "tren": "4100",
+        "link": "4100electrico.html"
+    },
+    {
+        "nombre": "SIST.NEUMATICO",
+        "tren": "4100",
+        "link": "4100neumatico.html"
+    },
+    {
+        "nombre": "SIST.HIDRAULICO",
+        "tren": "4100",
+        "link": "4100hidraulico.html"
+    },
+    {
+        "nombre": "SIST.PUERTAS",
+        "tren": "4100",
+        "link": "4100puertas.html"
+    },
+    {
+        "nombre": "PANEL AVERIAS",
+        "tren": "4100",
+        "link": "4100averias.html"
+    },
+    {
+        "nombre": "ENTRENAMIENTO",
+        "tren": "4100",
+        "link": "4100entrenamiento.html"
+    },
+    {
+        "nombre": "GENERALIDADES",
+        "tren": "4200",
+        "link": "4200generalidades.html"
+    },
+    {
+        "nombre": "VISTA SUPERIOR",
+        "tren": "4200",
+        "link": "4200superior.html"
+    },
+    {
+        "nombre": "VISTA INTERNA",
+        "tren": "4200",
+        "link": "4200interna.html"
+    },
+    {
+        "nombre": "VISTA INFERIOR",
+        "tren": "4200",
+        "link": "4200inferior.html"
+    },
+    {
+        "nombre": "SIST.ELECTRICO",
+        "tren": "4200",
+        "link": "4200electrico.html"
+    },
+    {
+        "nombre": "SIST.PUERTAS",
+        "tren": "4200",
+        "link": "4200puertas.html"
+    }, 
+    {   
+        "nombre": "PANEL AVERIAS",
+        "tren": "4200",
+        "link": "4200averias.html"
+    },
+    {
+        "nombre": "ENTRENAMIENTO",
+        "tren": "4200",
+        "link": "4200entrenamiento.html"
+    }
+]

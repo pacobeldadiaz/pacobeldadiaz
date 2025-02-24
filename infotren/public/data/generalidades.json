@@ -1,0 +1,296 @@
+[
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h1",
+        "contenido": "GENERALIDADES TRAM S/4100 VOSSLOH"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h2",
+        "contenido": "MOTRIZ:"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "MASA DE LA UNIDAD:"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "- TARA (A-B-C) 61.900 Kg.# - Carga Normal: 81.600 Kg.#"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "VELOCIDADES:"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "- Modo Tren: 100Km/h.# - Modo Tranvía: 70 Km/h.# - Acople/Desacople y Lavado: 3 Km/h.# - Marcha Atras: 50 Km/h.# - Sobreesfuerzo: 50 Km/h.# * Velocidades CON FALLO EN:# - 1 equipo de tracción: 70 Km/h.# - 2 equipos de tracción: 30 Km/h.#"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "Nº de motores:"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "- 6 motores asincronos (2 x bogie motor)# - 3 Bogies Motores ONIX de ALSTOM (tec.IGBT)# - Bogie con ruedas elásticas# - y suspensión secundaria neumática#"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "CONVERTIDORES ESTATICOS: 2 (SEPSA)"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "- Salida Media Tensión: 60KVA 400VCA 50hz# - Salida Baja Tensión:110VDC+CargadorBaterias#"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "PLAZAS VIAJEROS: Plazas Sentadas: 98"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "- Plazas de Pie (6pasajeros x M2): 213# - TOTAL PLAZAS: 311##"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h2",
+        "contenido": "FIGURA DEL BOGIE MOTOR:"
+    },
+    {
+        "tren": "4100",
+        "tipo": "imagen",
+        "propiedad": "bogie 4200",
+        "contenido": "4100-bogie-motor.png"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "[SALTODECOLUMNA]"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h2",
+        "contenido": "SISTEMA MOTRIZ:"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "El circuito de tracción consta de:"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "3 CONVERTIDORES DE TRACCION# 6 MOTORES TRACCION ASINCRONOS# Hay 3 BOGIES MOTORES#"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "(cada uno con 2 MOTORES DE TRACCION)# -Cada eje del bogie motor es accionado por un motor trifásico asincrono# -Cada bogie motor es alimentado por un convertidor de tracción propio situado en el cofre del bloque motor (CBM)# -Cada CBM se alimenta de tensión de catenaria (750 Vdc) a través del pantógrafo y del disyuntor principal (HSCB)# -Cada motor de tracción incorpora su sensor de velocidad# El convertidor de tracción transforma los 750Vdc en tensión trifásica y frecuencia variable, para la alimentación de los motores, que la transforman en en energia mecánica para la tracción# Cuando los motores funcionan como generadores, el convertidor devuelve la energia eléctrica generada a la red (FRENO DE RECUPERACION), o la transforma en energia calorífica (FRENO REOSTÁTICO) a través de una resistencia externa#"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "ESFUERZO MAXIMO = 36 KN x BOGIE MOTOR# La electrónica de los CBM"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "se comunica con: -la electrónica de control del tren (MPTCS)# -la electrónica de control del freno (BCE)# -la electrónica de control de los auxiliares (ACE), a través del bus FIP redundante#"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "COMUNICACION ENTRE ELECTRÓNICAS:#CBM<>MPTCS<>BCE<>ACE (red FIP)"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h2",
+        "contenido": "BOGIES:#3 BOGIES MOTORES y 1 BOGIE REMOLQUE"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "La caja de los coches descansa sobre el bastidor de los bogies a través de la suspensión secundaria (neumática) del enlace caja-bogie, y el bastidor del bogie descansa sobre las manguetas exteriores de la suspensión primaria y de las cajas de grasa#"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "LAS FUNCIONES DE LOS BOGIES"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "son:# - Soportar el peso de la caja# - Guiado del vehiculo# - Enlace caja-bogie# - Filtrado a través de la suspensión / amortiguadores# - Frenado de disco mediante hidráulico# - Frenado magnético con patines# - Arenado (adherencia)# - Antibloqueo (detección patinaje)# - Puesta a tierra y retorno de corriente# - Transmisión del par motor(en bg.motor)# - Medida de la velocidad FAP# - Disminución del desgaste de pestaña de las ruedas (en bg.motores extremos)##"
+    },
+    {
+        "tren": "4100",
+        "tipo": "texto",
+        "propiedad": "h2",
+        "contenido": "FIGURA DEL BOGIE REMOLQUE:"
+    },
+    {
+        "tren": "4100",
+        "tipo": "imagen",
+        "propiedad": "bogie 4200",
+        "contenido": "4100-bogie-remolque.png"
+    },
+	
+	
+	
+
+    
+	
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "h1",
+        "contenido": "GENERALIDADES TRANVIA S/4200 BOMBARDIER"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "h2",
+        "contenido": "DISYUNTOR:"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "4 UNIDADES= 1 x MOTOR"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "h2",
+        "contenido": "BOGIES:"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "BOGIES MOTORES (extremos):#BOG. PORTANTE (central)"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "h2",
+        "contenido": "FRENOS:"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "3 BOGIES PASIVOS:"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "Se anulan:# - CON BATERIA: Mediante conmutador de cabina# - SIN BATERIA: Manualmente: anilla (acople en modo sandwich)"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "h2",
+        "contenido": "RED ELÉCTRICA:"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "DC 750V:"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "* Convertidores de Tracción#* Aparatos termorregulación"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "AC 400V:"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "* x3 : Motores de Ventiladores#* Climatización"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "DC 24V :"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "* Freno de Patines#* Aparatos Electrónicos#* Sistemas de Control y Regulación AC 230V"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "h2",
+        "contenido": "SISTEMAS DE CONTROL:"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "h3",
+        "contenido": "VTCU: Control del tren#* MITRAC: Convertidor Auxiliar#* DCU: Control de Traccion#* BCU: Control de Frenos#* BNU: Convertidor Estatico Auxiliar#* Control de Puertas#"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "p",
+        "contenido": "[SALTODECOLUMNA]"
+    },
+    {
+        "tren": "4200",
+        "tipo": "texto",
+        "propiedad": "h2",
+        "contenido": "FIGURA DE LOS BOGIE MOTOR:"
+    },
+    {
+        "tren": "4200",
+        "tipo": "imagen",
+        "propiedad": "bogie 4200",
+        "contenido": "4200-generalidades-bogie.png"
+    }
+]

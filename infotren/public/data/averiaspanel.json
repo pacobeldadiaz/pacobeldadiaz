@@ -1,0 +1,395 @@
+[
+    {
+        "tren": "4100",
+        "icono": "ico_4100_bares.png",
+        "background": "white",
+        "link": "4100bares"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_luzlarga.png",
+        "background": "gold",
+        "link": "4100luzlarga"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_pantografoarriba.png",
+        "background": "gold",
+        "link": "4100pantografoarriba"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_hm.png",
+        "background": "gold",
+        "link": "4100hm"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_sicas.png",
+        "background": "chartreuse",
+        "link": "4100sicas"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_megafonia.png",
+        "background": "chartreuse",
+        "link": "4100megafonia"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_velocidad.png",
+        "background": "white",
+        "link": "4100velocidad"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_luzcorta.png",
+        "background": "gold",
+        "link": "4100luzcorta"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_paradasolicitada.png",
+        "background": "gold",
+        "link": "4100paradasolicitada"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_bloqueo.png",
+        "background": "gold",
+        "link": "4100bloqueo"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_sicasFlash.png",
+        "background": "chartreuse",
+        "link": "4100sicasFlash"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_peaje.png",
+        "background": "chartreuse",
+        "link": "4100peaje"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_vacio.png",
+        "background": "white",
+        "link": ""
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_on-off.png",
+        "background": "gold",
+        "link": "4100onoff"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_puertas.png",
+        "background": "gold",
+        "link": "4100puertas"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_pasarX0.png",
+        "background": "gold",
+        "link": "4100pasarx0"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_cesis.png",
+        "background": "chartreuse",
+        "link": "4100cesis"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_extintor.png",
+        "background": "chartreuse",
+        "link": "4100extintor"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_cabinacambio.png",
+        "background": "wheat",
+        "link": "4100cabinacambio"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_freno2.png",
+        "background": "wheat",
+        "link": "4100freno2"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_lazoemergencia.png",
+        "background": "wheat",
+        "link": "4100lazoemergencia"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_disyuntor.png",
+        "background": "wheat",
+        "link": "4100disyuntor"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_bloquemotor.png",
+        "background": "wheat",
+        "link": "4100bloquemotor"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_acustica.png",
+        "background": "chartreuse",
+        "link": "4100acustica"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_cabina.png",
+        "background": "wheat",
+        "link": "4100cabina"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_freno1.png",
+        "background": "wheat",
+        "link": "4100freno1"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_lazourgencia.png",
+        "background": "wheat",
+        "link": "4100lazourgencia"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_inversor.png",
+        "background": "wheat",
+        "link": "4100inversor"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_acdc.png",
+        "background": "wheat",
+        "link": "4100acdc"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_video.png",
+        "background": "chartreuse",
+        "link": "4100video"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_fh.png",
+        "background": "wheat",
+        "link": "4100fh"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_abs.png",
+        "background": "wheat",
+        "link": "4100abs"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_pantografoabajo.png",
+        "background": "wheat",
+        "link": "4100pantografoabajo"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_tirador.png",
+        "background": "wheat",
+        "link": "4100tirador"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_tensiones.png",
+        "background": "wheat",
+        "link": "4100tensiones"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_sae.png",
+        "background": "chartreuse",
+        "link": "4100sae"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_fallomasa.png",
+        "background": "wheat",
+        "link": "4100fallomasa"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_red.png",
+        "background": "wheat",
+        "link": "4100red"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_compresor.png",
+        "background": "wheat",
+        "link": "4100compresor"
+    },
+
+    {
+        "tren": "4100",
+        "icono": "ico_4100_bypass.png",
+        "background": "wheat",
+        "link": "4100bypass"
+    },
+
+    {
+        "tren": "4100", 
+        "icono": "ico_4100_contactor.png",
+        "background": "wheat",
+        "link": "4100contactor"
+    },
+
+    {
+        "tren": "4100", 
+        "icono": "ico_4100_atp.png",
+        "background": "chartreuse",
+        "link": "4100atp"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_puertas.png",
+        "background": "chartreuse",
+        "link": "4200puertas"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_megafonia.png",
+        "background": "chartreuse",
+        "link": "4200megafonia"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_bnu.png",
+        "background": "chartreuse",
+        "link": "4200bnu"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_dcu.png",
+        "background": "chartreuse",
+        "link": "4200dcu"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_vtcu.png",
+        "background": "chartreuse",
+        "link": "4200vtcu"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_emergencia.png",
+        "background": "chartreuse",
+        "link": "4200emergencia"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_pantografo.png",
+        "background": "chartreuse",
+        "link": "4200pantografo"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_bcu.png",
+        "background": "chartreuse",
+        "link": "4200bcu"
+    },
+
+
+
+
+    {
+        "tren": "4200",
+        "icono": "ico_4200_peaje.png",
+        "background": "gold",
+        "link": "4200peaje"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_focos.png",
+        "background": "gold",
+        "link": "4200focos"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_luces.png",
+        "background": "gold",
+        "link": "4200luces"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_climatizacion.png",
+        "background": "gold",
+        "link": "4200climatizacion"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_imu.png",
+        "background": "gold",
+        "link": "4200imu"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_sae.png",
+        "background": "gold",
+        "link": "4200sae"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_atp.png",
+        "background": "gold",
+        "link": "4200atp"
+    },
+    {
+        "tren": "4200",
+        "icono": "ico_4200_video.png",
+        "background": "gold",
+        "link": "4200video"
+    }
+]

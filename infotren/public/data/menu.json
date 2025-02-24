@@ -1,0 +1,332 @@
+[
+    {
+        "menu": "menu-principal",
+        "submenu": "submenu-4100",
+        "nombre": "TREN TRAM S/4100",
+        "link": [
+            "/tren-esquemas/4100presentacion.png",
+            "4100_frente-200.jpg",
+            ""
+        ],
+        "descripcion": "La Serie 4100 de FGV son trenes-tram de la marca Vossloh. Capacitados para poder realizar trayectos mixtos, tranvía sobre un trazado urbano, y tren en distancias largas para dar servicio en TRAM de Alicante"
+    },
+    {
+        "menu": "menu-principal",
+        "submenu": "submenu-4200",
+        "nombre": "TRANVÍA S/4200",
+        "link": [
+            "/tren-esquemas/4200presentacion.png",
+            "4200_frente-200.jpg",
+            ""
+        ],
+        "descripcion": "La Serie 4200 de FGV es una serie de tranvías Bombardier Flexity Outlook Cityrunner, diseñada y concebida para el servicio urbano del Metro de Valencia y del TRAM Metropolitano de Alicante"
+    },
+    {
+        "menu": "menu-principal--NO EXISTE",
+        "submenu": "submenu-5100",
+        "nombre": "TREN S/5100",
+        "link": [
+            "TrenEsquemasView",
+            "5100_frente-200.jpg",
+            ""
+        ],
+        "descripcion": "La Serie 5100 de FGV es una serie de tranvías Bombardier Flexity Outlook Cityrunner, diseñada y concebida para el servicio urbano del Metro de Valencia y del TRAM Metropolitano de Alicante"
+    },
+    {
+        "menu": "submenu-4100",
+        "submenu": "",
+        "nombre": "PRESENTACION",
+        "link": [
+            "TrenEsquemasView",
+            "4100presentacion.png",
+            "Imagen_Unidad_4100"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4100",
+        "submenu": "",
+        "nombre": "GENERALIDADES",
+        "link": [
+            "GeneralidadesView",
+            "",
+            "4100"
+        ],
+        "descripcion": ""
+    },
+     {
+        "menu": "submenu-4100",
+        "submenu": "",
+        "nombre": "VISTA LATERAL",
+        "link": [
+            "TrenEsquemasView",
+            "4100lateral.png",
+            "Vista_LATERAL_4100"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4100",
+        "submenu": "",
+        "nombre": "VISTA SUPERIOR",
+        "link": [
+            "TrenEsquemasView",
+            "4100superior.png",
+            "Vista_SUPERIOR_4100"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4100",
+        "submenu": "",
+        "nombre": "VISTA INFERIOR",
+        "link": [
+            "TrenEsquemasView",
+            "4100inferior.png",
+            "Vista_INFERIOR_4100"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4100",
+        "submenu": "",
+        "nombre": "SIST. NEUMATICO",
+        "link": [
+            "TrenEsquemasView",
+            "4100neumatico.png",
+            "SISTEMA_NEUMATICO_4100"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4100",
+        "submenu": "",
+        "nombre": "SIST. HIDRAULICO",
+        "link": [
+            "TrenEsquemasView",
+            "4100hidraulico.png",
+            "SISTEMA_HIDRAULICO_4100"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4100",
+        "submenu": "",
+        "nombre": "SIST. ELECTRICO",
+        "link": [
+            "TrenEsquemasView",
+            "4100electrico.png",
+            "SISTEMA_ELECTRICO_4100"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4100",
+        "submenu": "",
+        "nombre": "SIST. PUERTAS",
+        "link": [
+            "TrenEsquemasView",
+            "4100puertas.png",
+            "SISTEMA_PUERTAS_4100"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4100",
+        "submenu": "",
+        "nombre": "PANEL DE AVERIAS",
+        "link": [
+            "AveriasView",
+            "",
+            "4100"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4200",
+        "submenu": "",
+        "nombre": "PRESENTACION",
+        "link": [
+            "TrenEsquemasView",
+            "4200presentacion.png",
+            "Imagen_Unidad_4200"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4200",
+        "submenu": "",
+        "nombre": "GENERALIDADES",
+        "link": [
+            "GeneralidadesView",
+            "",
+            "4200"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4200",
+        "submenu": "",
+        "nombre": "VISTA LATERAL",
+        "link": [
+            "TrenEsquemasView",
+            "4200lateral.png",
+            "Vista_LATERAL_4200"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4200",
+        "submenu": "",
+        "nombre": "VISTA SUPERIOR",
+        "link": [
+            "TrenEsquemasView",
+            "4200superior.png",
+            "Vista_SUPERIOR_4200"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4200",
+        "submenu": "",
+        "nombre": "VISTA INTERIOR",
+        "link": [
+            "TrenEsquemasView",
+            "4200interior.png",
+            "Vista_INTERIOR _4200"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4200",
+        "submenu": "",
+        "nombre": "VISTA INFERIOR",
+        "link": [
+            "TrenEsquemasView",
+            "4200inferior.png",
+            "Vista_INFERIOR_4200"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4200",
+        "submenu": "",
+        "nombre": "SISTEMA PUERTAS",
+        "link": [
+            "TrenEsquemasView",
+            "4200puertas.png",
+            "SISTEMA_PUERTAS_4200"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4200",
+        "submenu": "",
+        "nombre": "SIST. ELECTRICO",
+        "link": [
+            "TrenEsquemasView",
+            "4200electrico.png",
+            "SISTEMA_ELECTRICO_4200"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4200",
+        "submenu": "",
+        "nombre": "CLIMATIZACIÓN",
+        "link": [
+            "TrenEsquemasView",
+            "4200climatizacion.png",
+            "SISTEMA_CLIMATIZACIÓN_4200"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4200",
+        "submenu": "",
+        "nombre": "SIST.INFORMACION",
+        "link": [
+            "TrenEsquemasView",
+            "4200informacionViajero.png",
+            "SISTEMA_INFORMACION_AL_VIAJERO_4200"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4200",
+        "submenu": "",
+        "nombre": "VIDEOVIGILANCIA",
+        "link": [
+            "TrenEsquemasView",
+            "4200videovigilancia.png",
+            "SISTEMA_VIDEOVIGILANCIA_4200"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4200",
+        "submenu": "",
+        "nombre": "PEAJE",
+        "link": [
+            "TrenEsquemasView",
+            "4200peaje.png",
+            "SISTEMA_DE_PEAJE_4200"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-4200",
+        "submenu": "",
+        "nombre": "PANEL DE AVERIAS",
+        "link": [
+            "AveriasView",
+            "",
+            "4200"
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-5100",
+        "submenu": "",
+        "nombre": "OPCION A",
+        "link": [
+            "TrenEsquemasView",
+            "",
+            ""
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "submenu-5100",
+        "submenu": "",
+        "nombre": "OPCION B",
+        "link": [
+            "TrenEsquemasView",
+            "",
+            ""
+        ],
+        "descripcion": ""
+    },
+    {
+        "menu": "menu-principal",
+        "submenu": "",
+        "nombre": "MAPA ZONAL",
+        "link": [
+            "public/docs/Plano-Zonal-Tarifario-TRAM-Alacant.pdf",
+            "Plano-Zonal-Tarifario-TRAM-Alacant_pq.png",
+            ""
+        ],
+        "descripcion": "Descarga el Mapa Zonal del TRAM Metropolitano de Alicante"
+    },
+    {
+        "menu": "menu-principal",
+        "submenu": "",
+        "nombre": "GALERIA DE FOTOS",
+        "link": [
+            "/galeria-fotos",
+            "galeria_fotos.png",
+            ""
+        ],
+        "descripcion": "Galeria de Fotografías del Material rodante, Estaciones, Apeaderos e Infraestructuras del TRAM Metropolitano de Alicante"
+    }
+]

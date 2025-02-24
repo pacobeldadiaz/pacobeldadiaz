@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 120 122"
+   version="1.1"
+   sodipodi:docname="tren-tram-icon_p.svg"
+   width="120"
+   height="122"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="6.1279298"
+     inkscape:cx="19.58247"
+     inkscape:cy="77.432349"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill-rule:evenodd;}</style>
+  </defs>
+  <title
+     id="title6">tram</title>
+  <path
+     class="cls-1"
+     d="m 23.63,15 h 1.31 L 22.73,7.67 22.66,7.43 H 18 A 3.72,3.72 0 0 1 18,0 h 44.33 a 3.72,3.72 0 0 1 0,7.43 H 57.67 L 57.61,7.67 55.39,15 h 0.5 c 5.29,0 11.71,6.85 12.79,12 L 80.21,81.93 C 81.3,87.1 74.56,94.57 69.27,94.57 H 17.48 C 5,94.57 -2.35,92 0.69,76.93 l 10,-49.39 c 1,-5.2 7.7,-12.52 13,-12.52 z M 30.4,7.43 32.69,15 h 15 L 49.98,7.41 Z M 8.56,122.88 17.49,102.16 h 11 l -2.95,6.65 h 29.6 l -3,-6.84 h 10.79 l 8.84,20.53 H 61.12 L 58,115.66 H 22.34 l -2.95,7.22 z m 17.33,-49 A 7.14,7.14 0 1 1 18.75,81 7.13,7.13 0 0 1 25.89,73.87 Z m 7.58,-52.14 h 12.86 a 0.6,0.6 0 0 1 0.6,0.6 v 6 a 0.6,0.6 0 0 1 -0.6,0.6 H 33.47 a 0.6,0.6 0 0 1 -0.6,-0.6 v -6 a 0.6,0.6 0 0 1 0.6,-0.6 z m -24.12,45.49 7,-31.43 h 47.52 l 6.58,31.43 z m 44.56,6.65 A 7.14,7.14 0 1 1 46.78,81 7.13,7.13 0 0 1 53.91,73.87 Z"
+     id="path8" />
+  <metadata
+     id="metadata908">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>tram</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

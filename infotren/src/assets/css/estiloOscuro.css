@@ -1,0 +1,103 @@
+/* src/assets/css/estiloOscuro.css */
+/*declaracion de variables para colores en armonia*/
+:root {
+  --colorCorporativo: #ec7406;
+  --OscuroClaro: #63b5a5;
+  --OscuroMedio: #2F3F43;
+  --OscuroTop: #a15005;
+}
+
+body.oscuro {
+  background-color: #005555;
+    color: #ffffff;
+}
+
+body.oscuro .cabecera { /*header*/
+  background-color: var(--OscuroTop);
+}
+
+body.oscuro .cuerpoCentral {
+  background-color: var(--OscuroClaro); 
+}
+
+body.oscuro .titulo h1 {
+  color: #ffffff;
+}
+
+body.oscuro .slider-container {
+  background-color: #2d1864;
+}
+
+body.oscuro .buttonfotos {
+  background-color: #2d1864;
+}
+
+body.oscuro .nav-dot {
+  background-color: #2d1864;
+}
+
+body.oscuro .nav-dot.active {
+  background-color: chartreuse;
+}
+
+body.oscuro .columna-izquierda,
+body.oscuro .columna-derecha {
+  background-color: #333;
+  color: white;
+}
+
+body.oscuro .imagen-json {
+  filter: brightness(0.8);
+}
+
+body.oscuro .icon-sun {
+  color: white;
+}
+
+body.oscuro .footer {
+  background-color: #1e1e1e;
+  border-top: 1px solid #333;
+  color: #ffffff;
+}
+
+
+body.oscuro .menu.open,
+body.oscuro .menu:not(.open){
+  background-color: var(--OscuroTop);
+}
+
+body.oscuro .menu-option {
+  background-color: gray;
+  color: white;
+}
+
+body.oscuro .menu-option.selected {
+  background-color: darkorange;
+  color: black;
+  border: 2px solid red;
+  cursor: auto;
+}
+
+body.oscuro .menu-opciones-tren .submenu-item {
+  background-color: white;
+  color: black;
+}
+
+body.oscuro .menu-opciones-tren .submenu-item:hover {
+  background-color: darkorange;
+  font-weight: bold;
+  color: black;
+}
+
+body.oscuro .columna-izquierda,
+body.oscuro .columna-derecha{
+  background-color: var(--OscuroClaro);
+}
+body.oscuro .ContenidoDinamicoModelif,
+body.oscuro .ContenidoDinamicoModel,
+body.oscuro .textoProcesado,
+body.oscuro .imageModaldiv,
+body.oscuro .modal-extra {
+  background-color:#bdb76b;
+}
+

@@ -1,0 +1,166 @@
+[
+    {
+        "clave": 1,
+        "nombre": "Carlos",
+        "apellidos": "López García",
+        "email": "carlos.lopez@blockbuster-group.es",
+        "foto": "https://img.freepik.com/foto-gratis/vista-frontal-hombre-sonriente-gafas-mostrando-pulgares-arriba_23-2148946199.jpg?t=st=1737724045~exp=1737727645~hmac=dc0b1dceac93c1f3e205b2c03f5ad783f8ec7f5d1371f29e882cab2c1f14817d&w=996",
+        "peliculas": [
+            "Dark",
+            "The Witcher",
+            "Chernobyl",
+            "The West Wing",
+            "Breaking Bad",
+            "The Walking Dead"
+        ]
+    },
+    {
+        "clave": 2,
+        "nombre": "María",
+        "apellidos": "Pérez Fernández",
+        "email": "maria.perez@blockbuster-group.es",
+        "foto": "https://img.freepik.com/foto-gratis/vista-frontal-joven-bella-mujer-camisa-blanca-pose-meditacion_140725-17207.jpg?t=st=1737724258~exp=1737727858~hmac=fc9a2633e1315c1bb8fbe139437a70edf67aa0b4fb89d779e7f19206a8facc6c&w=996",
+        "peliculas": [
+            "Fleabag",
+            "Superstore",
+            "Rick and Morty",
+            "Breaking Bad",
+            "The Haunting of Hill House",
+            "Twin Peaks",
+            "Black Sails",
+            "Westworld",
+            "Stranger Things",
+            "The Good Place",
+            "Hannibal",
+            "The Crown",
+            "Narcos",
+            "Money Heist"
+        ]
+    },
+    {
+        "clave": 3,
+        "nombre": "Javier",
+        "apellidos": "Martínez Gómez",
+        "email": "javier.martinez@blockbuster-group.es",
+        "foto": "https://img.freepik.com/foto-gratis/vista-frontal-hombre-sonriente-gafas-mostrando-pulgares-arriba_23-2148946199.jpg?t=st=1737724045~exp=1737727645~hmac=dc0b1dceac93c1f3e205b2c03f5ad783f8ec7f5d1371f29e882cab2c1f14817d&w=996",
+        "peliculas": [
+            "Breaking Bad",
+            "Black Sails",
+            "The Handmaid's Tale",
+            "Dexter",
+            "The Office",
+            "Sherlock",
+            "Better Call Saul"
+        ]
+    },
+    {
+        "clave": 4,
+        "nombre": "Laura",
+        "apellidos": "Sánchez Ruiz",
+        "email": "laura.sanchez@blockbuster-group.es",
+        "foto": "https://img.freepik.com/foto-gratis/chica-sincera-sorprendida-feliz-apuntandose-si-misma-levantando-cejas-jadeando-asombrada-ser-elegida-como-ganadora-premio-o-lograr-objetivo-recibir-buenas-noticias-pie-sobre-fondo-blanco_176420-53843.jpg",
+        "peliculas": [
+            "The Boys",
+            "Narcos: Mexico",
+            "Friends",
+            "The Sopranos",
+            "The Umbrella Academy"
+        ]
+    },
+    {
+        "clave": 5,
+        "nombre": "Pedro",
+        "apellidos": "Jiménez Castro",
+        "email": "pedro.jimenez@blockbuster-group.es",
+        "foto": "https://img.freepik.com/fotos-premium/excitado-chico-guapo-compartir-enlace-senalando-dedo-izquierdo-asombrado_926199-3591926.jpg?w=360",
+        "peliculas": [
+            "The Office",
+            "The Big Bang Theory",
+            "Money Heist",
+            "Sherlock",
+            "Brooklyn Nine-Nine"
+        ]
+    },
+  {
+        "clave": 6,
+        "nombre": "Carlos",
+        "apellidos": "López García",
+        "email": "carlos.lopez@blockbuster-group.es",
+        "foto": "https://img.freepik.com/foto-gratis/vista-frontal-hombre-sonriente-gafas-mostrando-pulgares-arriba_23-2148946199.jpg?t=st=1737724045~exp=1737727645~hmac=dc0b1dceac93c1f3e205b2c03f5ad783f8ec7f5d1371f29e882cab2c1f14817d&w=996",
+        "peliculas": [
+            "Dark",
+            "The Witcher",
+            "Chernobyl",
+            "The West Wing",
+            "Breaking Bad",
+            "The Walking Dead"
+        ]
+    },
+    {
+        "clave": 7,
+        "nombre": "María",
+        "apellidos": "Pérez Fernández",
+        "email": "maria.perez@blockbuster-group.es",
+        "foto": "https://img.freepik.com/foto-gratis/vista-frontal-joven-bella-mujer-camisa-blanca-pose-meditacion_140725-17207.jpg?t=st=1737724258~exp=1737727858~hmac=fc9a2633e1315c1bb8fbe139437a70edf67aa0b4fb89d779e7f19206a8facc6c&w=996",
+        "peliculas": [
+            "Fleabag",
+            "Superstore",
+            "Rick and Morty",
+            "Breaking Bad",
+            "The Haunting of Hill House",
+            "Twin Peaks",
+            "Black Sails",
+            "Westworld",
+            "Stranger Things",
+            "The Good Place",
+            "Hannibal",
+            "The Crown",
+            "Narcos",
+            "Money Heist"
+        ]
+    },
+    {
+        "clave": 8,
+        "nombre": "Javier",
+        "apellidos": "Martínez Gómez",
+        "email": "javier.martinez@blockbuster-group.es",
+        "foto": "https://img.freepik.com/foto-gratis/vista-frontal-hombre-sonriente-gafas-mostrando-pulgares-arriba_23-2148946199.jpg?t=st=1737724045~exp=1737727645~hmac=dc0b1dceac93c1f3e205b2c03f5ad783f8ec7f5d1371f29e882cab2c1f14817d&w=996",
+        "peliculas": [
+            "Breaking Bad",
+            "Black Sails",
+            "The Handmaid's Tale",
+            "Dexter",
+            "The Office",
+            "Sherlock",
+            "Better Call Saul"
+        ]
+    },
+    {
+        "clave": 9,
+        "nombre": "Laura",
+        "apellidos": "Sánchez Ruiz",
+        "email": "laura.sanchez@blockbuster-group.es",
+        "foto": "https://img.freepik.com/foto-gratis/chica-sincera-sorprendida-feliz-apuntandose-si-misma-levantando-cejas-jadeando-asombrada-ser-elegida-como-ganadora-premio-o-lograr-objetivo-recibir-buenas-noticias-pie-sobre-fondo-blanco_176420-53843.jpg",
+        "peliculas": [
+            "The Boys",
+            "Narcos: Mexico",
+            "Friends",
+            "The Sopranos",
+            "The Umbrella Academy"
+        ]
+    },
+    {
+        "clave": 10,
+        "nombre": "Pedro",
+        "apellidos": "Jiménez Castro",
+        "email": "pedro.jimenez@blockbuster-group.es",
+        "foto": "https://img.freepik.com/fotos-premium/excitado-chico-guapo-compartir-enlace-senalando-dedo-izquierdo-asombrado_926199-3591926.jpg?w=360",
+        "peliculas": [
+            "The Office",
+            "The Big Bang Theory",
+            "Money Heist",
+            "Sherlock",
+            "Brooklyn Nine-Nine"
+        ]
+    }
+]

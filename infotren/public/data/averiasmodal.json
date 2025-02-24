@@ -1,0 +1,468 @@
+[
+    {
+        "averia": "4100bares",
+        "icono": "ico_4100_bares.png",
+        "titulo": "BARES",
+        "texto": "&N&El sistema neumático está formado por un equipo de producción de aire comprimido y los siguientes equipos auxiliares alimentados por aire comprimido##- BALONAS (COLCHONES DE LA SUSPENSION SECUNDARIA)##- BOCINAS##- ARENEROS##- ENGRASE DE PESTAÑA##- ACOPLAMIENTO/DESACOPLE.##==&A&El equipo de producción de aire comprimido esta bajo el coche B y formado por un COMPRESOR PRINCIPAL, accionado por un motor eléctrico, de un secador de aire, un deposito de reserva y una valvula de seguridad tarada a 11 bares",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100luzlarga",
+        "icono": "ico_4100_luzlarga.png",
+        "titulo": "LUCES CORTAS Y FOCO LUZ LARGA",
+        "texto": "&N&1.- DEBE ESTAR LA CABINA HABILITADA PARA QUE FUNCIONEN.##2.- COMPROBAR TERMICOS:##&R&12F29&N&-(FOCOS, BOCINA LARGA)##&R&12F34&N&-(INTERMITENTES, LUZ FRENO, MANDO+LUCES, CORTAS, LEDS PUERTAS)##&R&12F35&N&-(FAROS INFERIORES)##&R&12F46&N&-(MANDO TCMS [ALUMBRADO PASAJEROS, PERMISO DESACOPLE, LUCES ROJAS, FOCOS ON/OFF Y FOCOS NORMAL/REDUCIDO])##3.- SI NO FUNCIONA TRAS COMPROBAR TÉRMICOS ANTERIORES, REALIZAR UN RESET TOTAL##4.- SI CONTINUAN SIN FUNCIONAR, ACTUAR SEGÚN REGLAMENTO",
+        "imagen": "4100-frontal-luces.jpg",
+        "extra": ""
+    },
+    {
+        "averia": "4100pantografoarriba",
+        "icono": "ico_4100_pantografoarriba.png",
+        "titulo": "PANTÓGRAFO NO PERMITE SUBIR Y CONECTAR",
+        "texto": "&N&1.- ¿ESTA LA CABINA HABILITADA?##2.- ¿TODOS LOS SISTEMAS INFORMATICO ESTAN ENCENDIDOS? (SICAS CONECTADO &R&ABT1:12F3&N&)##3.- COMPROBAR TÉRMICOS &R&12F35 Y 12F36 en ABT2&V&==>>>> SUBIR PANTÓGRAFO MANUALMENTE:##&N& * LA UNIDAD DEBE ESTAR ENCENDIDA## * DESCONECTAR LOS TÉRMICOS &R&12F35 Y 12F36 en ABT2&N& ## * SUBIR EL PANTÓGRAFO CON LA MANIVELA (LA MANIVELA ESTA SITUADA EN CABINA C)## * PULSAR EN LA CABINA HABILITADA SUBIR PANTÓGRAFO## * RECONECTAR LOS TÉRMICOS &R&12F35 Y 12F36 en ABT2##&R&NO INTENTAR SUBIR EL PANTOGRAFO CON LA MANIVELA SIN HABER DESCONECTADO PREVIAMENTE LOS TÉRMICOS==&V& * * * * * * * * * * * * * * * ¡ ¡ ¡ A T E N C I Ó N ! ! ! * * * * * * * * * * * * * * * ==&A&* CON TENSION DE CATENARIA Y EL SISTEMA INFORMATICO TODAVIA NO DISPONIBLE: SE ENCENDERA EN LA ZONA SUPERIOR EL PILOTO BLANCO PRESENCIA DE AT (ALTA TENSION) ## * EN EL MOMENTO EN QUE EL SISTEMA INFORMATICO ESTE DISPONIBLE Y UNO DE LOS ACE (Electrónica de control convertidor aux.) ESTE PRESENTE EN LA RED, EL VOLTIMETRO DE LA DDU MOSTRARA EL NIVEL DE TENSION (750VDC). ESTO POSIBILITARA EL ARRANQUE DE LOS MODULOS INVERSORES DE 400VAC Y LOS CARGADORES DE BATERIA DE 110 VDC",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100hm",
+        "icono": "ico_4100_hm.png",
+        "titulo": "SISTEMA HOMBRE MUERTO",
+        "texto": "&N&- SI SUENA EL HOMBRE MUERTO## - Y/O ERROR 888 EN VELOCIMETRO:##RESET TERMICO CESIS: &R&12F5&N& (3f,4c)&R& ABT1##&N& .SI PERSISTE LA AVERIA, INTENTAR CIRCULAR PASANDO EL HM DEL PULSADOR DEL PIE AL MANIPULADOR##EN CASO DE NO PODER, ACTUAR SOBRE EL BY-PASS DE HOMBRE MUERTO##&R&(AVISANDO CON ANTERIORIDAD AL PUESTO DE MANDO)",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100sicas",
+        "icono": "ico_4100_sicas.png",
+        "titulo": "SICAS",
+        "texto": "&N&NO FUNCIONA ORDENADOR PRINCIPAL-ERROR SICAS##&R&CUANDO APARECEN FALLOS DEL TIPO: 'RED FIP', 'UNIDAD MULTIPLE', 'FALLO A/A', ETC.##PARA CAMBIAR EL SICAS MAESTRO AL SICAS ESCLAVO O VICEVERSA DE UNA CABINA A OTRA:##1º COMPROBAR QUE ORDENADOR ES MAESTRO/ESCLAVO:##2º PULSAR EN EL ORDENADOR SICAS EL BOTON &N&<strong>'R'</strong>&R& Y VER TEXTO EN DISPLAY: (MAYUSCULA: MAESTRO / minuscula:ESCLAVO)##3º RESETEAR &N&12F3&R& EN &N&ABT1&R& (3f,3c) CABINA SICAS MAESTRO, FORZANDO AL ESCLAVO A CONVERTIRSE EN MAESTRO## ##&A&PARA EFECTUAR UN RESET &N&12F3&A& EN &N&ABT1&R& (3f,3c), ESPERAR 20SG DESPUES DE ENCENDER LA ELECTRONICA POR COMPLETO## ==&N&SI EN DDU DIAGNOSIS APARECEN TODAS LAS PUERTAS PARPADEANDO:##* POSIBLE ERROR SICAS: RESET 12F3(3f,3c) en ABT1 DE LA CABINA DONDE SICAS ES MAESTRO",
+        "imagen": "4100-sicas-master-slave.jpg",
+        "extra": ""
+    },
+    {
+        "averia": "4100megafonia",
+        "icono": "ico_4100_megafonia.png",
+        "titulo": "MEGAFONÍA",
+        "texto": "&A&PARA INTRODUCIR ITINERARIO: - DDU DIAGNOSIS: 5.-PARAMETROS DE CIRCULACION## ##&R&EN CASO DE ERROR Y NO PERMITIR ACEPTAR EL ITINERARIO:##&N&1º CANCELAR ITINERARIO EN CURSO:## --[ DDU DE DIAGNOSIS ]## ----[ 6.- OPCIONES SOBRE TRAYECTOS ]## ------[ 0.- ANULACION ITINERARIO EN CURSO ]## ##2º ALTERNAR DDU DE DIAGNOSIS CON DDU DE CONDUCCION##3º INSERTAR TRAYECTO DESDE CABINA CONTRARIA##4º RESET TÉRMICO IRIS: &R&12F11&N& en &R&ABT1&N& (3ª fila) EN AMBAS CABINAS",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100velocidad",
+        "icono": "ico_4100_velocidad.png",
+        "titulo": "LIMITACIONES DE VELOCIDADES",
+        "texto": "&A&VELOCIDAD MÁXIMA | CORTE DE TRACCIÓN:##&N& - 100 Km/h. | 97 Km/h.##&A&LIMITACIONES POR ERROR/FALLO EN FRENOS:##&N& - 1 FALLO: 70 Km/h - 2 FALLOS: 30 Km/h (COCHE B SIEMPRE) - 3 FALLOS: OFF##&A&VELOCIDAD MÁXIMA EN TALLERES##&N& - 15 Km/h.##&A&VELOCIDAD MODO TALLER##&N& - 3 Km/h.",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100luzcorta",
+        "icono": "ico_4100_luzcorta.png",
+        "titulo": "LUCES POSICIÓN Y FRENO",
+        "texto": "&N&1.- COMPROBAR TERMICOS:##</h3&R&12F34</h2&N& - (INTERMITENTES, LUZ FRENO, MANDO+LUCES, CORTAS, LEDS PUERTAS)##</h3&R&12F46</h2&N& - (MANDO TCMS [ALUMBRADO PASAJEROS, PERMISO DESACOPLE, LUCES ROJAS, FOCOS ON/OFF Y FOCOS NORMAL/REDUCIDO])##==&A&ACTUACIÓN SEGÚN EL REGLAMENTO R.C. de FGV. TEMA 2 - ARTICULO 50:##- FALTA DE SEÑALES POR CABEZA:&V& siendo de noche o en tuneles de mas de 300mt.y cuando por circunstancias atmosfericas, no se perciban las señales a menos de 200mt.## * LARGO ALCANCE: reducir la marcha de acuerdo a la visibilidad sin exceder los 10 Km/h en Pasos a Nivel## * OTRAS SEÑALES DE CABEZA: circulará, normalmente## * TODAS LAS SEÑALES DE CABEZA: MAQUINA INUTIL, continuar con MARCHA A LA VISTA, o a PASO DE HOMBRE, si es necesario.## ##&A& - FALTA DE SEÑALES POR COLA: PM.&V& podrá autorizar la circulación incompleta por cola, hasta donde existan los medios para normalizar su situación, debiendo avisarse a las estaciones por las que se circule.",
+        "imagen": "4100-frontal-luces.jpg",
+        "extra": ""
+    },
+    {
+        "averia": "4100paradasolicitada",
+        "icono": "ico_4100_paradasolicitada.png",
+        "titulo": "PARADA SOLICITADA",
+        "texto": "&N&AL ENCENDERSE EL ICONO EN AMARILLO INDICA QUE SE HA PULSADO EN UN BOTÓN DE PARADA SOLICITADA.## TAMBIEN SUENA LA SONERIA EN CABINA.",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100bloqueo",
+        "icono": "ico_4100_bloqueo.png",
+        "titulo": "BLOQUEO O PATINAJE",
+        "texto": "&R&* BLOQUEO PATINAJE##&N&- AVISO INFORMATIVO DE FUNCIONAMIENTO: BLOQUEO O PATINAJE DEBIDO A LA HUMEDAD EN EL CARRIL O A LIGERA LLUVIA",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100sicasFlash",
+        "icono": "ico_4100_sicasFlash.png",
+        "titulo": "SICAS FLASH",
+        "texto": "&R&SI EN DDU DIAGNOSIS APARECEN TODAS LAS PUERTAS PARPADEANDO:##&N&* POSIBLE ERROR SICAS: RESET &R&12F3&N&(3f,3c) en &R&ABT1&N& DE LA CABINA DONDE SICAS ES MAESTRO.##  ##&R&NO FUNCIONA ORDENADOR PRINCIPAL-ERROR SICAS==&N&CUANDO APARECEN FALLOS DEL TIPO: 'RED FIP', 'UNIDAD MULTIPLE', 'FALLO A/A', ETC.##PARA CAMBIAR EL SICAS MAESTRO AL SICAS ESCLAVO O VICEVERSA DE UNA CABINA A OTRA:##1º COMPROBAR QUE ORDENADOR ES MAESTRO/ESCLAVO:##2º PULSAR EN EL ORDENADOR SICAS EL BOTON &R&<strong>'R'</strong>&N& Y VER TEXTO EN DISPLAY: (MAYUSCULA: MAESTRO / minuscula:ESCLAVO)##3º RESETEAR &R&12F3&N& EN &R&ABT1&N& (3f,3c) CABINA SICAS MAESTRO, FORZANDO AL ESCLAVO A CONVERTIRSE EN MAESTRO## ##&A&PARA EFECTUAR UN RESET &R&12F3&A& EN &R&ABT1&N& (3f,3c), ESPERAR 20SG DESPUES DE ENCENDER LA ELECTRONICA POR COMPLETO## ==&R&SI EN DDU DIAGNOSIS APARECEN TODAS LAS PUERTAS PARPADEANDO:##* POSIBLE ERROR SICAS: RESET 12F3(3f,3c) en ABT1 DE LA CABINA DONDE SICAS ES MAESTRO",
+        "imagen": "4100-sicas-master-slave.jpg",
+        "extra": ""
+    },
+    {
+        "averia": "4100peaje",
+        "icono": "ico_4100_peaje.png",
+        "titulo": "PEAJE",
+        "texto": "&R&ERROR EN CANCELADORAS:##&N&RESET TÉRMICO&R&12F33&N& en&R&ABT1&N& (6ª fila)##&R&ERROR EN EXPENDEDORAS:##&N&RESET TÉRMICO &R&12F49&N& en &R&ABT1&N& (4ª fila) y &R&11F9&N& en &R&ABT1&N& (2ª fila)##&V&(AL LLEVAR UN S.A.I. ESTE SONARÁ HASTA AGOTAR LA BATERIA, PROCEDIENDO POSTERIORMENTE A SU DESCONEXIÓN)",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100onoff",
+        "icono": "ico_4100_on-off.png",
+        "titulo": "ENCENDIDO Y PAGAGADO (MANUAL Y AUTOMÁTICO)",
+        "texto": "&A&ENCENDIDO AUTOMÁTICO##&R&1.-&N&Habilitar la cabina poniendo la llave en posición 1##&R&2.-&N&Accionar el pulsador de arranque automático durante 0,5 segundos.##&A&ENCENDIDO MANUAL:##&R&1.-&N& Habilitar la cabina poniendo la llave en posición 1##&R&2.-&N& Subir el pantógrafo con el pulsador de subida, pulsándolo durante 0,5 segundos##&R&3.-&N& Se iluminará el indicador de alta tensión en el panel auxiliar superior de la cabina de conducción##&R&4.-&N& Accionar el pulsador de cierre del disyuntor durante 0,5 segundos==&A&APAGADO AUTOMÁTICO:##&R&1.-&N& Poner inversor a cero##&R&2.-&N& Pulsar el botón de paro automático##&R&3.-&N& Poner la llave de la cabina en posición 0, antes de que pasen 10sg.##&A&APAGADO MANUAL:##&R&1.-&N& Poner inversor a 0##&R&2.-&N& Pulsar el botón de apertura de disyuntor##&R&3.-&N& Pulsar cinco segundos el pulsador de bajar pantógrafo##&R&4.-&N& Al bajarse el pantógrafo, se apagará el indicador de alta tensión en el panel auxiliar superior de la cabina de conducción##&R&5.-&N& Poner la llave a cero",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100puertas",
+        "icono": "ico_4100_puertas.png",
+        "titulo": "AVERÍA EN PUERTAS",
+        "texto": "&R&RESET DE PUERTAS##&N&- DESCONECTAR (BAJAR) INTERRUPTOR EN LA DOVELA DE LA PUERTA AFECTADA.##- PULSAR Y MANTENER EL BOTÓN BLANCO DE LA CENTRALITA DE DICHA PUERTA##ACCIONAR EL INTERRRUPTOR S4, MANTENIENDO EL BOTÓN BLANCO PULSADO Y ESPERAR 10sg. o HASTA QUE SE APAGUE EL LED ROJO Y COMIENCE SONIDO CIERRE## ##&R&RESET DE CENTRALITA DE LAS PUERTAS DEL COCHE SOBRE EL QUE SE ACTUA==&N&RESETAR EL TERMICO &R&12F20&N& DE &R&ABT1&N& DEL COCHE A O C&R&NO SE ABRE UNA PUERTA##&N&- PUERTA SELECCIONADA Y HABILITADA##- COMPROBAR TÉRMICO &R&12F19&N& EN &R&ABT1&N& (CONTROL DE PUERTAS [OFF:CIERRE FORZOSO DE PUERTAS])##- TENEMOS TODAS LAS CENTRALES HIDRÁULICAS AISLADAS. (X EMERGENCIA <<-- PUENTEAR)##- MIRAR EL INTERRUPTOR DE DESCONEXIÓN DE LA PUERTA QUE ESTÉ EN POSICIÓN DE SERVICIO.##&A&* EN CASO DE QUE CONTINÚE EL ERROR --> BLOQUEAR PUERTA MEDIANTE INTERRUPTOR DE CUADRADILLO DE CONDENA DE PUERTAS, PRECINTAR LA PUERTA Y ASEGURARSE QUE ESTÁ PERFECTAMENTE ENCLAVADA.## ##&R&NO SE CIERRA UNA PUERTA==&N&- COMPROBAR TÉRMICO &R&12F19&N& EN &R&ABT1&N& (CONTROL DE PUERTAS [OFF:CIERRE FORZOSO DE PUERTAS])##- COMPROBAR QUE NO ESTÁ OBSTRUIDA##SI PERSISTE EL NO CIERRE: RESET TÉRMICO &R&12F19&N& EN &R&ABT1##&A& - EN CASO DE QUE CONTINÚE EL ERROR --> BLOQUEAR PUERTA MEDIANTE INTERRUPTOR DE CUADRADILLO DE CONDENA DE PUERTAS, PRECINTAR LA PUERTA Y ASEGURARSE QUE ESTÁ PERFECTAMENTE ENCLAVADA.##&A& - SI NO FUERA POSIBLE BLOQUEAR LA PUERTA CON EL INTERRUPTOR DE CUADRADILLO, SE BLOQUEARÍA DESDE EL INTERRUPTOR SITUADO EN EL INTERIOR DE LA DOVELA SUPERIOR.##&R&##UNA PUERTA NO SE PUEDE ENCLAVAR==&N& - INTENTAR ENCLAVAR LA PUERTA EMPUJÁNDOLA DESDE FUERA DE LA UNIDAD## - PREVIAMENTE SE DEBE ANULAR LA PUERTA (CON EL TIRADOR DE APERTURA DE EMERGENCIA ACTIVADO ES IMPOSIBLE ENCLAVAR LA PUERTA)##&A& - EN CASO DE ERROR, ACTUAR SOBRE EL BY-PASS DE PUERTAS Y CONTINUAR SERVICIO SEGÚN CONSIGNA DE NORMAS COMPLEMENTARIAS DEL TRAM",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100pasarx0",
+        "icono": "ico_4100_pasarX0.png",
+        "titulo": "PASAR X0",
+        "texto": "&R&LA UNIDAD NO TRACCIONA. COMPROBAR:##&N&COMPROBAR:##&A&* ¿TENSION 750 VDC?##* ¿DISYUNTOR CERRADO?##* ¿INVERSOR AD O AT ?##* ¿ATP OK? &R&12F41##&A&* ¿CESIS EN FUNCIONAMIENTO?##* ¿LAZO EMERGENCIA CERRADO?##* ¿LAZO URGENCIA CERRADO?##* ¿PUERTAS NO HABILITADAS?##* ¿PUERTAS CERRADAS?##&N&RESET PARCIAL (LINEA 400V): BAJAR PANTOGRAFO, ESPERAR UNOS SEGUNDOS Y VOLVER A SUBIR",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100cesis",
+        "icono": "ico_4100_cesis.png",
+        "titulo": "CESIS",
+        "texto": "&R&NO FUNCIONA EL CESIS: REGISTRO DE DATOS##&N&PUEDE APARECER 888 EN VELOCIMETRO##&N&1º RESET TÉRMICO &R&12F5&N& EN &R&ABT1&N& (3f,4c) (TAQUIMETRIA DE HOMBRE MUERTO Y REGISTRADOR DE DATOS CESIS)##&N&2º ACTUAR SOBRE LOS LAZOS DE URGENCIA + TRACCION + HOMBRE MUERTO##&A&(AVISANDO CON ANTERIORIDAD AL PUESTO DE MANDO)##&N&EL FALLO DEL EQUIPO CESIS SOLO AFECTA A LA CABINA QUE ESTÁ SITUADO EL EQUIPO EN FALLO",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100extintor",
+        "icono": "../img/ico_4100_extintor.png",
+        "titulo": "LIBERAR EXTINTORES",
+        "texto": "&N&PARA LIBERAR LOS EXTINTORES DEBEMOS ACTUAR SOBRE EL CONMUTADOR DE EXTINTORES SITUADO EN LA BOTONERA SUPERIOR.##&N&DEBAJO DEL CONMUTADOR EXTINTORES, TENEMOS EL ALUMBRADO DE LIMPIEZA, EN CASO DE APAGADO DE UNIDAD.",
+        "imagen": "../img/4100-botonera2Superior.jpg",
+        "extra": "</p>"
+    },
+    {
+        "averia": "4100cabinacambio",
+        "icono": "../img/ico_4100_cabinacambio.png",
+        "titulo": "CAMBIO DE CABINA",
+        "texto": "&N&- COMPROBAR QUE LA LLAVE ESTA EN CERO '0'.##- DISPONEMOS DE 10 MINUTOS PARA EL CAMBIO DE CABINA, O PARA VOLVER A INTRODUCIR LA LLAVE, O LA UNIDAD SE APAGA.##",
+        "imagen": "",
+        "extra": "&A&SE MANTIENE ACTIVA LA ILUMINACION, CLIMATIZACION, CIERRE DE HSCB (disyuntor principal) Y GENERACION DE 400Vac.##- MIENTRAS SE REALIZA EL CAMBIO DE CABINA, SE MANTENDRA LA SEÑALIZACION EXTERNA DE LOS FAROS ROJOS"
+    },
+    {
+        "averia": "4100freno2",
+        "icono": "ico_4100_freno2.png",
+        "titulo": "FRENO HIDRAÚLICO APLICADO",
+        "texto": "&R&TERMICOS A DESCONECTAR SI NO DESFRENA:##&N&* EL BLOQUE-BOGIE MOTOR: &R&12F6&N& y &R&12F7&N& EN ABT CORRESPONDIENTE##&N&* BOGIE PORTANTE: &R&12F6&N& y &R&12F7&N& EN &R&ABT2&N& + PULSAR EN VALVULA DE FRENADO MANUAL##* SI HAY MAS DE UN BOGIE CON LA CENTRAL HIDRAHULICA ANULADA, HABRÁ QUE ACTUAR SOBRE EL BYPASS DE EMERGENCIA##&A&LIMITACIONES: 1 FALLO: 70 Km/h - 2 FALLOS: 30 Km/h (COCHE B SIEMPRE) - 3 FALLOS: OFF",
+        "imagen": "95.jpg_kbgm_95.jpg",
+        "extra": "&N&IMAGEN CÓDIGO ERROR EN FALLO MODULO KBGM</h1>==&N&SE RESETEA CON EL PULSADOR S3 (RESET) DEL MODULO KBGM EN ARMARIOS ABT1 DE AMBAS CABINAS DEL BOGIE MOTOR, Y/O ABT2 DEL BOGIE REMOLQUE##LA LECTURA DIGITAL QUE DEBE APARECER ES &R&99##&N&SI APARECE &R&95&N& NO LIMITA, PERO ESTÁ LEYENDO UN ERROR INTERNO.##PARA LISTADO DE ERRORES, PULSAR S1 (LISTADO)##&R&<strong>PARA OTRO CODIGO DISTINTO A 95 Y 99 (ERROR):</strong>##&N&1º PULSAR S3 DURANTE UNOS 3 SEGUNDOS, SI EN LA PRIMERA OCASIÓN NO DESAPARECE LA AVERÍA, REPETIR LA OPERACIÓN##2º BAJAR LOS TERMICOS &R&12F6, 12F7, 12F8##&N&3º SI CONTINUA SIN FUNCIONAR, ANULAR BOGIE &R&12F28##&N&4º SI FALLA EN LOS TRES COCHES REPETIR LA OPERACIÓN EN LOS TRES.##&V&*** SI NO FUNCIONA, RETIRAR LA UNIDAD ***"
+    },
+    {
+        "averia": "4100lazoemergencia",
+        "icono": "ico_4100_lazoemergencia.png",
+        "titulo": "LAZO EMERGENCIA",
+        "texto": "&N&- ¿INVERSOR EN 0?##- ¿SETA EMERGENCIA PULSADA EN ALGUNA CABINA?##- ¿FALLO DE FRENO HIDRÁULICO EN MAS DE UN BOGIE? *##- ¿FALLO EN 2 O MAS ONIX DURANTE UNA FRENADA (PIDIENDO FRENO)?##- ¿DESACOPLE REALIZADO CORRECTAMENTE? (RECUERDA: PULSAR LOS DOS BOTONES DE DESACOPLE EN AMBAS CABINAS)##&R&SI EL LAZO EMERGENCIA SIGUE ABIERTO: &V&ACTUAR SOBRE EL BYPASS DE EMERGENCIA (¿MÁS POSIBLEMENTE SOBRE EL LAZO DE TRACCIÓN?)## AL RESTABLECER, ANTES COMPROBAR QUE MANIPULADOR ESTÁ CERO##&A&COMPROBAR ESQUEMA LAZOS:",
+        "imagen": "4100-lazos+seta.png",
+        "extra": ""
+    },
+    {
+        "averia": "4100disyuntor",
+        "icono": "ico_4100_disyuntor.png",
+        "titulo": "DISYUNTOR",
+        "texto": "&N&* ¿SISTEMA INFORMÁTICO ON ? (SICAS CONECTADO) &R&12F3##&N&* ¿EQUIPOS TRACCIÓN (ONIX) ON ? &R&12F28##&N&* ¿TÉRMICOS DISYUNTOR ? &R&12F18##&N&* ¿TENSIÓN DE LÍNEA (750 VDC) ? ERROR CON +950V o -525V##* ¿SETA EMERGENCIA ?##&V&PARA REARMAR EN MARCHA CUANDO SE ABRE, PULSAR ABRIR, ESPERAR UN MINUTO Y ORDENAR CERRAR.##SI FALLA TRES VECES SEGUIDAS SIN CONECTAR = RESET TOTAL##EN CASO DE NO SER POSIBLE CERRAR DISYUNTOR, PROBAR HABILITAR Y CERRAR DISYUNTOR DESDE LA CABINA CONTRARIA==&R&COMPROBAR QUE LA SETA DE EMERGENCIA NO ESTA PULSADA",
+        "imagen": "4100-emergenciaYdisyuntor.png",
+        "extra": ""
+    },
+    {
+        "averia": "4100bloquemotor",
+        "icono": "ico_4100_bloquemotor.png",
+        "titulo": "BLOQUE MOTOR",
+        "texto": "&R&AVERÍA EN BLOQUE MOTOR - EQUIPOS DE TRACCIÓN - ONIX##&N&PARA RESETAR ONIX CON ERROR: &R&12F28&N& EN &R&ABT&N&CORRESPONDIENTE##&R&BM AISLADO :##&R&BM S_TP : &N&SOBRETEMPERATURA. BAJAR &R&12F28&N& DEL EQUIPO AFECTADO Y CONTINUAR CON ESE MOTOR ANULADO##&R&BM TRACCIÓN :##BM FRENO :</2>==&R&10F3&A& : ELECTRÓNICA CVS##&R&11F4&A& : VENTILADOR TRACCIÓN (&R&ABT1&N& y &R&ABT2&N&)## ##&R&UNIDAD TIEMBLA AL TRACCIONAR==&V&DETERMINAR QUÉ CABINA TIEMBLA, Y BAJAR TÉRMICO &R&12F28&V&, POSIBLEMENTE UNO DE LOS SENSORES DEL MOTOR ESTÉ DEFECTUOSO##&R&INVERTER BLOQUEADO o AISLADO==&V&NO HAY QUE TOCAR NADA, EL EQUIPO DE TRACCIÓN SÓLO SE PUEDE RECUPERAR MEDIANTE UN ORDENADOR##TERMINAR SERVICIO CON ESE EQUIPO ANULADO, ES CONVENIENTE BAJAR EL TÉRMICO &R&12F28&V& DEL EQUIPO AFECTADO",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100acustica",
+        "icono": "ico_4100_acustica.png",
+        "titulo": "FALLOS SISTEMAS ACÚSTICOS Y SONERÍA",
+        "texto": "&R&NO FUNCIONA LA BOCINA LARGA##&N&COMPROBAR:##&N&- ¿PRESIÓN DE AIRE EN TDP > 8 BAR?##&N&- COMPROBAR TÉRMICO &R&12F29&N& EN &R&ABT1&N& (SEÑALIZACIÓN EXTERNA/FAROS/BOCINA - 5ª fila)##&N&- ¿LLAVE AISLAMIENTO P1 BOCINA LARGA CERRADA?",
+        "imagen": "4100-neumatico-sistema-fallo.png",
+        "extra": "&A&VER POSIBLE FALLO EN SIST.NEMUMÁTICO:==&N&SI SE AISLA LA BOCINA NEUMÁTICA, SE CIRCULARÁ:##&V&SEGÚN REGLAMENTO: ART_57 TEMA 2: La inutilización del silbato de una máquina se considerará como inutilización de la misma. Cuando la inutilización del silbato ocurra en plena vía, el maquinista podrá continuar hasta donde se le pueda dar reparación o cambio de máquina, reduciendo la velocidad, en desmontes, túneles, curvas, tajos de obras, y no exceder los 10 km/h al aproximarse a un Paso Nivel.## ##&R&NO FUNCIONA LA BOCINA CORTA (CAMPANA o CLAXÓN)==&N&COMPROBAR:##&N&- CABINA HABILITADA##&N&- COMPROBAR TÉRMICO &R&12F34&N& EN &R&ABT1##&N&SEÑALIZACIÓN EXTERNA/FAROS CORTOS, CLAXÓN, CAMPANA, INTERMITENTES... (6ª fila)"
+    },
+    {
+        "averia": "4100cabina",
+        "icono": "../img/ico_4100_cabina.png",
+        "titulo": "HABILITACIÓN CABINA",
+        "texto": "&N&TERMICO DE CABINA HABILITADA: RESETEAR&R&12F4 EN ABT1##&N&SI ERROR CONTNUA EN ROJO:##- COMPROBAR SI HAY 2 CABINAS HABILITADAS.##- COMPROBAR POSIBLE CONFLICTO CON LLAVES EN LAS 2 CABINAS.",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100freno1",
+        "icono": "ico_4100_freno1.png",
+        "titulo": "FRENO ESTACIONAMIENTO",
+        "texto": "&N&EN AMARILLO NOS INDICA QUE UNO O MAS FRENOS DE ESTACIONAMIENTOS ESTAN APLICADOS",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100lazourgencia",
+        "icono": "ico_4100_lazourgencia.png",
+        "titulo": "LAZO URGENCIA",
+        "texto": "&N&- TERMICO LAZO URGENCIA &R&12F21&N& EN &R&ABT1##&N&- ¿FALLO DEL EQUIPO CESIS? (RECUERDA PARA ANULAR: BYPASS DE URGENCIA+TRACCION+HM)##- ¿TIRADOR DE ALARMA DE VIAJEROS?##- ¿ACTUACION DEL ATP?##- ¿PUERTA DE VIAJEROS ABIERTA A VELOCIDAD MAYOR DE 3KM/h?##- ¿CORTE DE UNIDAD MULTIPLE?##- ¿LAZO ABIERTO POR CENTRAL HIDRÁULICAS?##&R&SI EL LAZO DE URGENCIA SIGUE ABIERTO ACTUAR SOBRE EL BYPASS DE URGENCIA.##&V&SI DEJA CONTINUAR, COMUNICAR A PM (que indicará las condiciones de circulación).##ANTES DE RESTABLECER, COMPROBAR QUE MANIPULADOR ESTÁ CERO.",
+        "imagen": "4100-lazos.png",
+        "extra": ""
+    },
+    {
+        "averia": "4100inversor",
+        "icono": "ico_4100_inversor.png",
+        "titulo": "CONVERTIDOR AUXILIAR",
+        "texto": "&R&COMPROBAR TÉRMICO &R&10F3&N& EN &R&ABT1&N& (6ª fila-4ª posición: CVS-ELECTRÓNICA) DEL COCHE AFECTADO.##&A&(AMARILLO: ACTIVÁNDOSE O FALLA UNO DE LOS EQUIPOS)&R&(ROJO: AVERÍA)##&R&400 VAC&N& : SE HA AISLADO EL INVERSOR DE UN CVS##&R&CARGADOR&N& : AISLADO EL CARGADOR DE UN CVS##&R&CVS&N& : FALLO EN UNO O MÁS CVS##&V&CON AVERÍA EN UNO DE LOS CVS SE PUEDE CONTINUAR SERVICIO CON LIMITACIONES EN AACC Y ALUMBRADO SIEMPRE QUE ENTRE EL CONTACTOR DE EMERGENCIA.##SI EL CONTACTOR NO HUBIERA ENTRADO HABRÁ QUE FORZARLO AISLANDO EL CVS DESDE EL INTERRUPTOR &R&10S1&V& AISLAR CVS SITUADO EN EL ARMARIO BT. - &R&ANTES LLAMAR A PM.",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100acdc",
+        "icono": "ico_4100_acdc.png",
+        "titulo": "TÉRMICOS AC/DC",
+        "texto": "&N&COMPROBAR TÉRMICOS EN LOS DIFERENTES ABT##&R&11F**&N&: 400 VAC (ALTERNA)##&R&12F**&N&: 110 VDC (CONTINUA)##&R&12F**&N&: 24 VDC (CONTINUA)##&R&10F**&N&: 24 VDC (CONTINUA)",
+        "imagen": "4100-abt-posiciones.jpg",
+        "extra": ""
+    },
+    {
+        "averia": "4100video",
+        "icono": "ico_4100_video.png",
+        "titulo": "SISTEMA GRABACIÓN VIDEO Y VÍDEOVIGILANCIA",
+        "texto": "&N&RESET TÉRMICO &R&12F30&N& EN &R&ABT1&N& (CÁMARAS C.T.V)##&N&EN LOS ORDENADORES DE LAS CÁMARAS DE RETROVISIÓN, SI DESPUÉS DE RESETEAR TÉRMICO &R&12F30&N&, SIGUE SIN FUNCIONAR, RESETEAR EL ORDENADOR DE VIDEO DESDE EL PULSADOR &R&S1&N& (NEGRO, de 5mm de DIÁMETRO)",
+        "imagen": "4100-video.png",
+        "extra": ""
+    },
+    {
+        "averia": "4100fh",
+        "icono": "ico_4100_fh.png",
+        "titulo": "FRENO HIDRAÚLICO",
+        "texto": "&N&AVERIA EN FRENO HIDRÁULICO APLICADO</h1>==&R&TERMICOS A DESCONECTAR EN COCHE CORRESPONDIENTE:##&N&* COCHE A &R&(ABT1)&N&: &R&12F6&N&: control freno hidraulico - &R&12F7&N&: control freno hidraulico - &R&12F8&N&: Bomba hidraulica##&N&* COCHE B &R&(ABT2)&N&: &R&12F6&N&: control freno hidraulico - &R&12F7&N&: control freno hidraulico - &R&12F8&N&: Bomba hidraulica BOGIE 2##&R&(ABT3)&N&: &R&12F9&N&: Bomba hidraulica BOGIE 3##&N&* DESFRENADO DE BOGIE PORTANTE = &R&ABT2&N& + PULSAR EN VALVULA DE FRENADO MANUAL##&V&SI HAY MAS DE UN BOGIE CON LA CENTRAL HIDRAHULICA ANULADA, HABRÁ QUE ACTUAR SOBRE EL BYPASS DE EMERGENCIA==&N&DOCUMENTACIÓN TÉCNICA FRENO HIDRÁULICO APLICADO</h1>==&R&TERMICOS A DESCONECTAR EN COCHE CORRESPONDIENTE:##&N&* COCHE A &R&(ABT1)&N&: &R&12F6&N&: control freno hidraulico - &R&12F7&N&: control freno hidraulico - &R&12F8&N&: Bomba hidraulica##&N&* COCHE B &R&(ABT2)&N&: &R&12F6&N&: control freno hidraulico - &R&12F7&N&: control freno hidraulico - &R&12F8&N&: Bomba hidraulica BOGIE 2##&R&(ABT3)&N&: &R&12F9&N&: Bomba hidraulica BOGIE 3##&N&* DESFRENADO DE BOGIE PORTANTE = &R&ABT2&N& + PULSAR EN VALVULA DE FRENADO MANUAL##&V&SI HAY MAS DE UN BOGIE CON LA CENTRAL HIDRAHULICA ANULADA, HABRÁ QUE ACTUAR SOBRE EL BYPASS DE EMERGENCIA",
+        "imagen": "95.jpg_kbgm_95.jpg",
+        "extra": "&N&IMAGEN CÓDIGO ERROR EN FALLO MODULO KBGM</h1>==&N&SE RESETEA CON EL PULSADOR S3 (RESET) DEL MODULO KBGM EN ARMARIOS ABT1 DE AMBAS CABINAS DEL BOGIE MOTOR, Y/O ABT2 DEL BOGIE REMOLQUE##LA LECTURA DIGITAL QUE DEBE APARECER ES &R&99##&N&SI APARECE &R&95&N& NO LIMITA, PERO ESTÁ LEYENDO UN ERROR INTERNO.##PARA LISTADO DE ERRORES, PULSAR S1 (LISTADO)##&R&<strong>PARA OTRO CODIGO DISTINTO A 95 Y 99 (ERROR):</strong>##&N&1º PULSAR S3 DURANTE UNOS 3 SEGUNDOS, SI EN LA PRIMERA OCASIÓN NO DESAPARECE LA AVERÍA, REPETIR LA OPERACIÓN##2º BAJAR LOS TERMICOS &R&12F6, 12F7, 12F8##&N&3º SI CONTINUA SIN FUNCIONAR, ANULAR BOGIE &R&12F28##&N&4º SI FALLA EN LOS TRES COCHES REPETIR LA OPERACIÓN EN LOS TRES.##&V&*** SI NO FUNCIONA, RETIRAR LA UNIDAD ***"
+    },
+    {
+        "averia": "4100abs",
+        "icono": "ico_4100_abs.png",
+        "titulo": "SISTEMA ABS",
+        "texto": "&R&* AVISO SISTEMA ANTIDESLIZAMIENTO##&N&SIMPLEMENTE AVISA CUANDO ENTRA EN FUNCIONAMIENTO EL SISTEMA ANTIDESLIZAMIENTO",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100pantografoabajo",
+        "icono": "ico_4100_pantografoabajo.png",
+        "titulo": "PANTÓGRAFO NO PERMITE BAJAR Y SU DESCONEXIÓN",
+        "texto": "&N&1.- ¿ESTA LA CABINA HABILITADA?##2.- ¿TODOS LOS SISTEMAS INFORMATICO ESTAN ENCENDIDOS? (SICAS CONECTADO &R&ABT1:12F3&N&)##3.- COMPROBAR TÉRMICOS &R&12F35 Y 12F36 en ABT2&N&4.- ¿ESTA EL DISYUNTOR CONECTADO?##&V&==>>>> BAJAR PANTÓGRAFO MANUALMENTE:##&N& * ABRIR DISYUNTOR## * DESCONECTAR LOS TÉRMICOS &R&12F35 Y 12F36 en ABT2&N& ## * BAJAR EL PANTÓGRAFO CON LA MANIVELA (LA MANIVELA ESTA SITUADA EN CABINA C)## * PULSAR EN LA CABINA HABILITADA BAJARR PANTÓGRAFO## * RECONECTAR LOS TÉRMICOS &R&12F35 Y 12F36 en ABT2##&A&PARA BAJAR EL PANTÓGRAFO CON LA UNIDAD APAGADA DIRECTAMENTE CON LA MANIVELA GIRANDO EN EL SENTIDO DE LAS AGUJAS DEL RELOJ==&V& * * * * * * * * * * * * * * * ¡ ¡ ¡ A T E N C I Ó N ! ! ! * * * * * * * * * * * * * * * ==&A&* CON TENSION DE CATENARIA Y EL SISTEMA INFORMATICO TODAVIA NO DISPONIBLE: SE ENCENDERA EN LA ZONA SUPERIOR EL PILOTO BLANCO PRESENCIA DE AT (ALTA TENSION) ## * EN EL MOMENTO EN QUE EL SISTEMA INFORMATICO ESTE DISPONIBLE Y UNO DE LOS ACE (Electrónica de control convertidor aux.) ESTE PRESENTE EN LA RED, EL VOLTIMETRO DE LA DDU MOSTRARA EL NIVEL DE TENSION (750VDC). ESTO POSIBILITARA EL ARRANQUE DE LOS MODULOS INVERSORES DE 400VAC Y LOS CARGADORES DE BATERIA DE 110 VDC",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100tirador",
+        "icono": "ico_4100_tirador.png",
+        "titulo": "TIRADOR DE EMERGENCIA",
+        "texto": "&R&EN CASO DE ACTUAR UN VIAJERO SOBRE UN TIRADOR DE EMERGENCIA:##&N&AL TIRAR DE UN TIRADOR, SE PROVOCA UNA PETICIÓN DE FRENO DE URGENCIA, SI LA DISTANCIA RECORRIDA ES:##&R&&R&* MENOR DE 150mt:&N& SE ABRE EL LAZO DE URGENCIA Y PARADA AUTOMÁTICA DE LA UNIDAD.##&R&* MAYOR DE 150mt:&N& APARECE AVISO EN DDU Y PUEDE SEGUIR HASTA LA PRÓXIMA ESTACIÓN.##&N&EN LA SIGUIENTE PARADA HAY QUE REPONER PARA QUE VUELVA A ARRANCAR.</h1>##&A&EN CASO DE NO PODER REARMAR SE ACTUARÁ SOBRE EL BYPASS, PERO SI SE ACTÚA SOBRE OTRO TIRADOR DE EMERGENCIA, LA UNIDAD NO SE FRENARÁ AUNQUE SE ESTABLECERÁ LA COMUNICACIÓN VERBAL Y APARECERÁ EN LA DDU DE DIAGNOSIS LA UBICACIÓN DEL TIRADOR.##&V&EL MAQUINISTA SE ASEGURARÁ DE LA CAUSA QUE PROVOCÓ EL ACCIONAMIENTO Y SI NO REVISTE GRAVEDAD, SE ACTUARÁ SOBRE EL BYPASS DE TIRADORES DE EMERGENCIA Y CONTINUARÁ VIAJE HASTA LA PRÓXIMA PARADA, DONDE SE REARMARÁ.",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100tensiones",
+        "icono": "ico_4100_tensiones.png",
+        "titulo": "TENSIONES",
+        "texto": "&N&BATERÍA PERMANENTE: &R&10F4&N& EN &R&ABT1##&N&PUESTA A TIERRA 400V: &R&11F8&N& EN &R&ABT1##&N&NEGATIVO 110 VDC: &R&10F5&N& EN &R&ABT¿1?&N& (VER TENSIÓN DE BATERÍAS EN DDU)##&N&CARGA DE SERVICIO: &R&10F2&N& EN &R&ABT¿1?##",
+        "imagen": "",
+        "extra": "##&N&BATERIAS</h1>==&N&SUMINISTRAN LOS 110 VDC CUANDO EL TREN NO TIENE TENSIÓN DE CATENARIA##&V&(CON PANTÓGRAFO SUBIDO SERÁ EL CVS EL QUE SUMINISTRE LOS 110 VDC)##&N&HAY DOS LÍNEAS DE 110 INDEPENDIENTES:##&N&- SERVICIO: (CONTACTOR BATERÍA CERRADO + &R&10F2&N&)##- PERMANENTE: &R&10F4##&N&* &R&10F5&N& DEBE ESTAR CERRADO PARA AMBAS LÍNEAS##&A&EL ALUMBRADO DE LIMPIEZA ON, SI LA TENSIÓN DE BATERÍA ES SUPERIOR A 94/98 VDC (ALUMBRADO = 30sg.)"
+    },
+    {
+        "averia": "4100sae",
+        "icono": "ico_4100_sae.png",
+        "titulo": "SAE: SISTEMA DE AYUDA A LA EXPLOTACIÓN",
+        "texto": "&N&RESET DE SAE. TÉRMICO:&R&12F27&N& (&R&ABT1&N&) (5ª fila)##&N&No coge la identificación del número de maquinista, hacer RESET:##&N&DESDE CONSOLA: CIBORG: MENU + 4 + 2##&A&ATENCIÓN: PULSAR 2 VECES BOTÓN ROJO IZQ: (abre micrófono)",
+        "imagen": "4100-sae2.png",
+        "extra": ""
+    },
+    {
+        "averia": "4100fallomasa",
+        "icono": "ico_4100_fallomasa.png",
+        "titulo": "FALLO MASA",
+        "texto": "&N&COMPROBAR EN DDU DE DIAGNOSIS QUÉ COCHE TIENE EL FALLO, PARA LOCALIZAR EL ABT CON EL TÉRMICO BAJADO, AUNQUE NO APAREZCA FALLO TÉRMICO BAJADO EN DDU DE CONDUCCIÓN.##&A&EJ: 400VAC --3. B: ERROR TIPO B, EN COCHE 3, TÉRMICO BAJADO##&N&DEFECTO/FALLO MASA 400 VAC: &R&11F8&N& EN &R&ABT1&N& EN AMBAS CABINAS##&N&DEFECTO/FALLO MASA 110 VDC: &R&12F40&N& EN &R&ABT3##&N&DEFECTO/FALLO MASA 24 VDC: &R&12F43&N& EN &R&ABT3&N&: ¿DERIVACIÓN EN COMPRESOR?",
+        "imagen": "4100-abt-posiciones.jpg",
+        "extra": ""
+    },
+    {
+        "averia": "4100red",
+        "icono": "ico_4100_red.png",
+        "titulo": "RED FIP - FALLO EN SISTEMA INFORMÁTICO",
+        "texto": "&R&FALLO DE LA RED DEL SISTEMA INFORMÁTICO - RED FIP##&V&Bus de Campo (Field Instrumentation Protocol). Red arquitectura TCMS de Tren TRAM##&R&ERRORES EN 'RED TREN', 'RED FIP' O 'RED' - POSIBLES SÍNTOMAS: 1/2 TREN APAGADO##&N& - CON ICONO EN AMARILLO SE PUEDE CONTINUAR SIN LIMITACIÓN, PERO AVISANDO A PM.##&N&PROCEDER COMO CON ERROR SICAS ALTERNANDO CPU MASTER/SLAVE &V&VER AVERIA SICAS##&N& - CON ICONO EN ROJO, EL TREN QUEDARÁ INUTILIZADO. REALIZAR UN APAGADO TOTAL##&N& * SI EL APAGADO TOTAL NO ES POSIBLE, DESCONECTAR LA UNIDAD DESDE EL INTERRUPTOR &R&'APAGADO ELECTRÓNICA'##&N& - ESTÁ SITUADO EN EL ARMARIO BT &R&'15S2'&V& (extremo derecha)##&A&(ES NECESARIO QUE LA LLAVE DE LA HABILITACION DE CABINA ESTE EN POSICION'0')",
+        "imagen": "4100-armario_bt1.jpg",
+        "extra": ""
+    },
+    {
+        "averia": "4100compresor",
+        "icono": "ico_4100_compresor.png",
+        "titulo": "COMPRESOR",
+        "texto": "&R&SI LA PRESION EN TDP<8 BARES O ESTA ENCENDIDA LA LUZ DE FALLO EN DDU, COMPROBAR TERMICOS:##&N&- 12F24 EN ABT2 (MANDO COMPRESOR)## - 11F7 EN ABT2 (COMPRESOR)==&R&SI HAY FALLO PERO NO SE REGISTRA EN DDU, PULSAR 30S1 (BOTÓN NEGRO) EN ABT2 [ESTE PULSADOR FUERZA UNA CARGA DE AIRE EN EL COMPRESOR EN 3 MINUTOS, QUE DURA APROXIMADAMENTE 30 MINUTOS]==&R&COMPROBAR PRESENCIA DE 400 VAC EN ARMARIO ABT2. VER PILOTO LUMINOSO Y QUE FUNCIONA EL CONVERTIDOR (CVS) O BUSCAR POSIBLE FUGA Y AISLAR DESDE LA LLAVE CORRESPONDIENTE##==&V&EN CASO DE QUE SE AISLE UNA BALONA NEUMATICA, O ESTE TODA LA UNIDAD SIN AIRE, SOLO ES UNA LIMITACION DE CONFORT. SI SE AISLA LA BOCINA NEUMATICA, SE CIRCULARÁ SEGUN REGLAMENTO: ART_57 TEMA 2: &A&La inutilizacion del silbato de una maquina se considerara como inutilizacion de la misma. Cuando la inutilización del silbato ocurra en plena via, el maquinista podrá continuar hasta donde se le pueda dar reparación o cambio de maquina, reduciendo la velocidad, en desmontes, tuneles, curvas, tajos de obras, y no exceder los 10 km/h al aproximarse a un Paso Nivel.",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100bypass",
+        "icono": "ico_4100_bypass.png",
+        "titulo": "BYPASS",
+        "texto": "&R&EN CASO DE ENCENDERSE, COMPROBAR QUE NO HAY NINGÚN BY-PASS ACTIVADO",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4100contactor",
+        "icono": "ico_4100_contactor.png",
+        "titulo": "CONTACTOR",
+        "texto": "&R&COMPROBAR TÉRMICO &R&10F3&N& EN &R&ABT1&N& (6ª fila-4ª posición: CVS-ELECTRÓNICA) DEL COCHE AFECTADO.##&A&(AMARILLO: ACTIVÁNDOSE O FALLA UNO DE LOS EQUIPOS)&R&(ROJO: AVERÍA)## ##&V&CON AVERÍA EN UNO DE LOS CVS SE PUEDE CONTINUAR SERVICIO CON LIMITACIONES EN AACC Y ALUMBRADO SIEMPRE QUE ENTRE EL CONTACTOR DE EMERGENCIA.##SI EL CONTACTOR NO HUBIERA ENTRADO HABRÁ QUE FORZARLO AISLANDO EL CVS DESDE EL INTERRUPTOR &R&10S1&V& AISLAR CVS SITUADO EN EL ARMARIO BT. &R& (ANTES LLAMAR A PUESTO DE MANDO)",
+        "imagen": "4100-armario_bt1.jpg",
+        "extra": "&A&NOTA: CONTACTOR AUXILIAR 110/24VDC &R&12F38&A& en &R&ABT1)"
+    },
+    {
+        "averia": "4100atp",
+        "icono": "ico_4100_atp.png",
+        "titulo": "ATP",
+        "texto": "&R&RESET DE ATP, TÉRMICO: 12F41&N& (&R&ABT1&N&) (5ª fila)##&N&CONMUTADOR DESCONEXIÓN A.T.P.: BOTONERA DERECHA SUPERIOR&A&* RESET COMPLETO A.T.P:##&N&1º APAGADO A.T.P.: CONMUTADOR en OFF##&N&2º ENCENDIDO A.T.P.: CONMUTADOR en ON##&N&3º Posteriormente RESET &R&12F41&N& en &R&ABT1",
+        "imagen": "4100-botonera1Superior.jpg",
+        "extra": "&R&MODO ESPECIAL r100&N&: Poner en modo maniobra, liberación y enter##&R&REBASE EUROLAZO Y NO EUROLAZO:&N& Poner m30 , y tras pasar la señal a rebasar, poner modo r30##&R&ANUNCIO DE PRECAUCIÓN Y ANUNCIO DE PARADA:&N& E801 Condición no contemplada, pues no impide el paso.##&R&SEÑAL ROJO+BLANCO: REBASE AUTORIZADO:&N& Igual que en un rebase##&R&SEÑAL ROJO+AMARILLO: MOVIMIENTO AUTORIZADO:&N& Para rebasar la señal poner modo maniobra m30 Circular en 'régimen de maniobra' hasta punto estacionamiento, o hasta liberar la señal de retroceso, nunca hasta la siguiente señal o estación.##&R&MODO r0:&N&: Necesita realizarse Test de Frenado, tras 'error900'"
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+        "averia": "4200puertas",
+        "icono": "ico_4200_puertas.png",
+        "titulo": "PUERTAS",
+        "texto": "&R&PUERTA/ESCALON##&N&ERROR DE PUERTA/ESCALON EN PANTALLA MMI##&A&RESET DE PUERTA:##&N&.1) APAGAR INTERRUPTOR 'S4'##.2) EN MODULO DE CONTROL DE PUERTA, PULSAR BOTÓN BLANCO Y MANTENER PULSADO##.3) CONECTAR INTERRUPTOR 'S4'##.4) CUANDO LOS LEDS &R&ROJOS&N& CAMBIEN A VERDE , DEJAR DE PULSAR BOTÓN BLANCO##.5) SE ESCUCHARÁ EL AJUSTE COMPLETO DE PUERTA Y ESCALÓN##==&A&ANULACION DE PUERTA: (EN CASO DE AVERÍA)##&V&1) APAGAR INTERRUPTOR 'S4' o DESHABILITAR PUERTA Y ESCALON DESDE CUADRADILLO##*CUADRADILLO:## --(HACIA LA IZQUIERDA: ANULADO)## --(HACIA LA DERECHA: HABILITADO)##2) ENCLAVAR MECANICAMENTE LA PUERTA##3) PRECINTAR##",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4200megafonia",
+        "icono": "ico_4200_megafonia.png",
+        "titulo": "MEGAFONIA Y DISPLAYS",
+        "texto": "&N&CUANDO NO SUENA LA MEGAFONÍA INDICANDO LAS PARADAS:##&A&RESETEAR EL SISTEMA DE INFORMACIÓN DE VIAJEROS: PIS-EBIS##&R&A-441.13(1f.13c)##B-449.13(1f.13c)####==&N&CUANDO SE PRODUCEN ERRORES EN LOS DISPLAYS DE INFORMACIÓN AL VIAJERO:##&A&DISPLAYS INTERIORES:##&N&COCHES A y D: TERMICO &R&751FA1&N& EN CABINA A##COCHES B y E: TERMICO &R&752FB1&N& EN CABINA B##&A&DISPLAYS EXTERIORES:##&N&COCHES A y D: TERMICO &R&730FA1&N& EN CABINA A##COCHES B y E: TERMICO &R&734FB1&N& EN CABINA B.",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4200bnu",
+        "icono": "ico_4200_bnu.png",
+        "titulo": "CONVERTIDOR AUXILIAR: BNU",
+        "texto": "&N&CUANDO HAY UN ERROR EN CONVERTIDOR AUXILIAR (BNU):##&A&REALIZAR RESET DEL TERMICO DEL BNU AFECTADO:##&R&A-321.10(1f.10c)##B-322.08(1f.8c)##&N&==##EN CASO DE FALLAR LAS DOS BNU, IMPLICA RETIRAR LA UNIDAD",
+        "imagen": "",
+        "extra": ""
+    },
+     {
+        "averia": "4200dcu",
+        "icono": "ico_4200_dcu.png",
+        "titulo": "CONTROL DE TRACCIÓN: DCU",
+        "texto": "&N&EN CASO DE AVERÍA DE UNA DCU, SE PROCEDERÁ DE LA SIGUIENTE MANERA:##&A&1.- RESET DE LLAVE:##&N& PONER LA LLAVE EN POSICIÓN CERO, Y PASADOS 30SG, VOLVER A PSOICIÓN 2##&A&2.- RESET DE TÉRMICOS##&N& CADA MOTOR DE TRACCIÓN TIENE UN TÉRMICO ASIGNADO, Y SON:##&R&DCU1: CABINA A-106.5(1f.4c)##DCU2: CABINA A-107.6(1f.5c)##DCU3: CABINA B-108.5(1f.4c)##DCU4: CABINA B-109.6(1f.5c)##&A&3.- RESET DE PANTÓGRAFO:##&N& BAJAR EL PANTÓGRAFO DESDE EL PUPITRE DE CONDUCCIÓN, PROCEDIENDO A CORTARSE LA TENSIÓN Y RESETEARSE LAS DCU. PASADOS UNOS SEGUNDOS, VOLVER A SUBIR EL PANTÓGRAFO.",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4200vtcu",
+        "icono": "ico_4200_vtcu.png",
+        "titulo": "ORDENADOR PRINCIPAL VTCU Y PANTALLAS MMI",
+        "texto": "&N&PROBLEMAS CON LA UNIDAD DEL TIPO ORDENADOR CENTRAL O NO SE ENCIENDEN LAS PANTALLAS MMI:##&A&1. RESET DE MARCHA DE DESALOJO##2. RESET DE TÉRMICOS: &N&RESETEAR:##&R&- EN CABINA A-903.63(5f.10c) RESETEA LA VTCU(ÚNICA) Y LA MMI DE ESA CABINA ##- EN CABINA B-903.26(2f.10c) SOLO RESETEA LA PANTALLA MMI DE ESA CABINA##&A&3. RESET DE BATERIA",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4200emergencia",
+        "icono": "ico_4200_emergencia.png",
+        "titulo": "LAZO EMERGENCIA",
+        "texto": "&N&EN CASO DE ABRIRSE LAZO DE EMERGENCIA &R&COMPROBAR QUE NO ESTEN PULSADAS LAS SETAS DE URGENCIA O EMERGENCIA&A&SI PERSISTE EL ERROR: RESETEAR LA UNIDAD DESDE LA LLAVE.",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4200pantografo",
+        "icono": "ico_4200_pantografo.png",
+        "titulo": "PANTÓGRAFO",
+        "texto": "&N&EN CASO DE NO SUBIR EL PANTÓGRAFO. COMPROBAR:##&N&1.- SI HAY TENSIÓN DE BATERIA.##2.- LA LLAVE DE HABILITACIÓN ESTA EN MODO AUTO O MODO TALLER##3.- COMPROBAR EN LA DOVELA 8B EN EL COCHE C QUE EL INTERRUPTOR DE DESCENSO DE EMERGENCIA ESTÉ EN OFF.##4.- COMPROBAR LA MARCHA DE DESALOJO.##5.- COMPROBAR QUUE LOS TÉRMICOS ESTEN CONECTADOS: &R&311FA1 &N&Y &R&312FA2 &N&EN CABINA A",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4200bcu",
+        "icono": "ico_4200_bcu.png",
+        "titulo": "CONTROL DE FRENOS: BCU",
+        "texto": "&A&BCU NO PREPARADOS:##&N&ESPERAR HASTA 60'SG. A QUE EL SISTEMA DE FRENOS ESTE LISTO, EN CASO DE NO FUCIONAR, PASAR LA LLAVE POR CERO (FUERA DE SERVICIO) Y VOLVER A LA POSICION 2 (AUTOMÁTICO-CONDUCCIÓN)##==&A&ERROR EN BCU: ##&N&LOCALIZAR BCU AFECTADO:##&A&RESET BCU:##&R&BCU COCHE B: B-234.07(1f.7c) MUELLE B##BCU COCHE C: A-251.08(1f.8c) PORTANTE##BCU COCHE A: A-231.07(1f.7c) MUELLE A",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4200peaje",
+        "icono": "ico_4200_peaje.png",
+        "titulo": "EQUIPOS DE PEAJE",
+        "texto": "&N&ERROR EN CANCELADORAS:##&N&RESET TÉRMICOS:##&R&EN COCHE A Y D: 782FA1 EN CABINA A##EN COCHE B Y E: 783FB1 EN CABINA B##&N&==ERROR EN EXPENDEDORAS:##&N&RESET TÉRMICOS:##&R& RESET COCHE D: 781FA1 EN CABINA A##RESET COCHE E: 784FB1 EN CABINA B##==&A&(AL LLEVAR UN S.A.I. ESTE SONARÁ HASTA AGOTAR LA BATERIA, PROCEDIENDO POSTERIORMENTE A SU DESCONEXIÓN)",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4200focos",
+        "icono": "ico_4200_focos.png",
+        "titulo": "LUCES EXTERNAS (FOCOS)",
+        "texto": "&N&NO CONMUTAN LUCES DE CORTO Y LARGO ALCANCE:##&A&PONER LLAVE EN CERO. CONMUTADOR FOCOS EXTERIORES EN CERO EN AMBAS CABINAS Y RESET:##&R&A-508.36(3f.9c)##B-506.33(3f.8c)",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4200luces",
+        "icono": "ico_4200_luces.png",
+        "titulo": "LUCES INTERNAS",
+        "texto": "&N&EN CASO DE AVERÍA DE LUCES INTERIORES (ALUMBRADO PASAJEROS) RESETAR TÉRMICO:##&R&- COCHES A,D,C: 501FA2 EN CABINA A##- COCHES B,E: 502FB2 EN CABINA B##&N&==EN CASO DE AVERIA EN LUCES DE EMERGENCIA. RESETAR TÉRMICOS:##&R&- COCHES A,C: 5021FA2 EN CABINA A##- COCHES D: 521FA1 EN CABINA A##- COCHES E: 523FB1 EN CABINA B##- COCHES B: 523FB2 EN CABINA B",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4200climatizacion",
+        "icono": "ico_4200_climatizacion.png",
+        "titulo": "CLIMATIZACIÓN",
+        "texto": "&N&EN CASO DE AVERÍA EN AIRE ACONDICIONADO, REALIZAR RESET AL TÉRMICO CORRESPONDIENTE:##- FALLO EN CABINA A: TÉRMICO &R&631FA3 &N&EN CABINA A##- FALLO EN CABINA B: TÉRMICO &R&632FB3 &N&EN CABINA B##- FALLO EN CABINA D: TÉRMICO &R&602FA1 &N&EN CABINA A##- FALLO EN CABINA E: TÉRMICO &R&606FB3 &N&EN CABINA B",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4200imu",
+        "icono": "ico_4200_imu.png",
+        "titulo": "SISTEMA DE CAMBIO DE AGUJAS: IMU",
+        "texto": "&N&EN CASO DE NO FUNCIONAR LOS PULSADORES DEL I.M.U. (SISTEMA DE CAMBIO DE AGUJAS) SE REALIZARÁ UN RESET DEL TÉRMICO:##&R&- 761FA1 EN COCHE A (2f.10c)##- 763FB1 EN COCHE B (2f.6c)",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4200sae",
+        "icono": "ico_4200_sae.png",
+        "titulo": "SISTEMA DE AYUDA A LA EXPLOTACIÓN: SAE",
+        "texto": "&N&RESET DE SAE. TÉRMICO: &R&411FA1 EN COCHE A##&N&No coge la identificación del número de maquinista, hacer RESET:##&N&DESDE CONSOLA: CIBORG: MENU + 4 + 2##&A&ATENCIÓN: PULSAR 2 VECES BOTÓN ROJO IZQ: (abre micrófono)",
+        "imagen": "4100-sae2.png",
+        "extra": ""
+    },
+    {
+        "averia": "4200atp",
+        "icono": "ico_4200_atp.png",
+        "titulo": "ATP",
+        "texto": "&N&ERROR EN ATP:##&A&RESET TERMICO ATP DESDE CONMUTADOR EN CABINA O TÉRMICOS:##&R&A-431.12 (1f.12c)##B-435.11 (1f.11c)==##==&R&MODO ESPECIAL r100&N&: Poner en modo maniobra, liberación y enter##&R&REBASE EUROLAZO Y NO EUROLAZO:&N& Poner m30 , y tras pasar la señal a rebasar, poner modo r30##&R&ANUNCIO DE PRECAUCIÓN Y ANUNCIO DE PARADA:&N& E801 Condición no contemplada, pues no impide el paso.##&R&SEÑAL ROJO+BLANCO: REBASE AUTORIZADO:&N& Igual que en un rebase##&R&SEÑAL ROJO+AMARILLO: MOVIMIENTO AUTORIZADO:&N& Para rebasar la señal poner modo maniobra m30 Circular en 'régimen de maniobra' hasta punto estacionamiento, o hasta liberar la señal de retroceso, nunca hasta la siguiente señal o estación.##&R&MODO r0:&N&: Necesita realizarse Test de Frenado, tras 'error900'",
+        "imagen": "",
+        "extra": ""
+    },
+    {
+        "averia": "4200video",
+        "icono": "ico_4200_video.png",
+        "titulo": "SISTEMA VIDEOVIGILANCIA",
+        "texto": "&A&SISTEMA DE VIDEOVIGILANCIA:##&N&EN CASO DE FALLO, COMPROBAR QUE LA LLAVE DE LA VIDEOGRABADORA, QUE ESTA EN EL COCHE C, ESTA EN POSICIÓN: ON. EN ESE CASO, SI CONTINUA EL FALLO, REALIZAR ##&R&RESET TÉRMICO:##-  951FA1 EN CABINA A##==&A&SISTEMA DE RETROVISORES:##&N&EN CASO DE FALLO DE ALGUNA CÁMARA, MALA IMAGEN##&R&RESET TÉRMICOS:##- 770FA1 EN CABINA A##- 774FB1 EN CABINA B##==&A&GRABADORA DE VIDEO:##&N&EN CASO DE FALLO ##&R&RESET TÉRMICO:##- 423FB1 EN CABINA B",
+        "imagen": "",
+        "extra": ""
+    }
+]

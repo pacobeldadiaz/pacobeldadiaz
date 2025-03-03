@@ -4,7 +4,7 @@
         "submenu": "submenu-4100",
         "nombre": "TREN TRAM S/4100",
         "link": [
-            "/tren-esquemas/4100presentacion.png",
+            "/tren/4100presentacion.png",
             "4100_frente-200.jpg",
             ""
         ],
@@ -22,24 +22,13 @@
         "descripcion": "La Serie 4200 de FGV es una serie de tranvías Bombardier Flexity Outlook Cityrunner, diseñada y concebida para el servicio urbano del Metro de Valencia y del TRAM Metropolitano de Alicante"
     },
     {
-        "menu": "menu-principal--NO EXISTE",
-        "submenu": "submenu-5100",
-        "nombre": "TREN S/5100",
-        "link": [
-            "TrenEsquemasView",
-            "5100_frente-200.jpg",
-            ""
-        ],
-        "descripcion": "La Serie 5100 de FGV es una serie de tranvías Bombardier Flexity Outlook Cityrunner, diseñada y concebida para el servicio urbano del Metro de Valencia y del TRAM Metropolitano de Alicante"
-    },
-    {
         "menu": "submenu-4100",
         "submenu": "",
         "nombre": "PRESENTACION",
         "link": [
-            "TrenEsquemasView",
+            "TrenView",
             "4100presentacion.png",
-            "Imagen_Unidad_4100"
+            ""
         ],
         "descripcion": ""
     },

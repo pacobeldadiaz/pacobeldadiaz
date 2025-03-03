@@ -101,3 +101,7 @@ body.oscuro .modal-extra {
   background-color:#bdb76b;
 }
 
+/* Evita que las celdas del panel sean afectadas */
+body.oscuro .celda {
+  background: inherit !important;
+}

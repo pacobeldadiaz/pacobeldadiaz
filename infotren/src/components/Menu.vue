@@ -125,22 +125,35 @@ export default {
               propiedad2: propiedad2
             }
           });
-        } else if (view === "AveriasView") {
+          } else if (view === "TrenView") {
 
           // Verificar que propiedad2 no esté vacío
-          if (!propiedad2) {
-            console.error("❌ Error: unidad está vacía. No se puede navegar a AveriasView.");
+          if (!imagen) {
+            console.error("❌ Error: imagen está vacía. No se puede navegar a TrenView.");
             return;
           }
           this.$router.push({
             name: view,
             params: {
-              unidad: propiedad2
+              unidad: imagen
             }
-          });
-        } else {
-          this.$router.push({ name: view });
-        }
+            });
+              } else if (view === "AveriasView") {
+
+                // Verificar que propiedad2 no esté vacío
+                if (!propiedad2) {
+                  console.error("❌ Error: unidad está vacía. No se puede navegar a AveriasView.");
+                  return;
+                }
+                this.$router.push({
+                  name: view,
+                  params: {
+                    unidad: propiedad2
+                  }
+                });
+              } else {
+                this.$router.push({ name: view });
+              }
         this.cerrarMenuSiClick();
       } catch (error) {
         console.error(`❌ Error al navegar: ${error.message}`);
